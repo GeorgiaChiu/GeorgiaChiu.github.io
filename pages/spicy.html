@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<title>Georgia's</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+        canvas {
+             position:absolute;
+             top:0;
+             left:0;
+             width:100%;
+             height:100%;
+             z-index:-1;
+          }
+</style>
+</head>
+
+<body>
+
+ <div class="whole-s">
+    <div class="backhome"><a href="../index.html" style="color: darkgray;">來，我們回主頁</a></div>
+    <div id="backk" class="top-s">
+        <div class="top-s-comtent"><a href="#classic" data-scroll>辣子介紹<span class="tooltiptext">Brief Intro about Georgia's</span></a></div>
+        <div class="top-s-comtent"><a href="#specil" data-scroll>固定款式<span class="tooltiptext">Basic model</span></a></div>
+        <div class="top-s-comtent"><a href="#littleth" data-scroll>訂製款式<span class="tooltiptext">Customized model</span></a></div>
+        <div class="top-s-comtent"><a href="#exper" data-scroll>飾品小物<span class="tooltiptext">Accessories</span></a></div>
+        <div class="top-s-comtent"><a href="#howtobuy" data-scroll>訂購流程<span class="tooltiptext">Purchase flow</span></a></div>
+                    
+</div>
+
+    <div id ="classic" class="content-s">
+        <div><img class="titt" src="../resourse/titt1.png"></div>
+        <div><img class="titt" src="../resourse/intro.jpg"></div>
+        
+    </div>
+    <div id ="specil" class="content-s">
+        <div><img class="titt" src="../resourse/group01.jpg"></div>
+        <h4>基本款即所謂固定版型，僅材質與顏色供選擇</h4>
+        <div class="bigitems-s">
+            <p>基本款比基尼</p><img class="items" src="../resourse/basic01-1.jpg">
+            <img class="items" src="../resourse/basic01-2.jpg">
+        <h5>辣妹選擇兩個顏色，我幫妳加上適合珠珠做搭配。</h5>
+        <h5>（此圖上的綠色珠珠為南美洲帶回來的小寶貝，賣完就沒了）</h5><h5></h5>
+        <h6>材質:棉</h6>
+        <h6>價格:1260 NT</h6>
+        <h6>選擇兩色搭配：米白, 白, 深藍, 淺紫, 咖啡, 軍綠</h6>
+        </div>
+        <div class="bigitems-s">
+            <p>基本款長板辣子</p>
+            <img class="items" src="../resourse/basiclong01.jpg">
+            <img class="items" src="../resourse/basiclong02.jpg">
+            <img class="items" src="../resourse/basiclong03.jpg">     
+            <h5>辣妹選擇兩個顏色，給妳一件性感的小肚兜</h5>
+            <h6>材質:棉</h6>
+            <h6>價格:2760 NT</h6>
+            <h6>選擇兩色搭配：米白, 白, 深藍, 淺紫, 咖啡, 軍綠</h6>
+            <div class="nothing"> </div>
+            </div>
+    </div>
+    <div id ="littleth" class="content-s">
+         <div><img class="titt" src="../resourse/group03.jpg"></div>
+         <h4>訂製款為客製設計，顏色花紋版型長短辣度均可成為妳的專屬</h4>
+         <div class="bigitems-s">
+            <p>雙色系列-給可愛的妳</p>
+            <img class="items" src="../resourse/dou-pink01.jpg">
+            <img class="items" src="../resourse/dou-pink03.jpg">
+            <img class="items" src="../resourse/dou-pink02.jpg">
+           <h5>在辣子底部我織了一個不知名的小小馬，在胸口配上一個愛心。</h5>
+            <h5>過程中，我一心一意地希望這是個可愛的作品！</h5>
+            <h5>喔！對了，這整件沒有任合換線，如果找到線尾，一路使勁拉，這個辣子就會分崩離析</h5><h5> </h5>
+            <h6>材質:苧麻x棉</h6>
+            <h6>價格:2560 NT</h6>
+            <h6>顏色：深藍（棉）,粉藕（苧麻）</h6>
+        </div>
+         <div class="bigitems-s">
+             <p>雙色系列-給野性的妳</p> 
+            <img class="items" src="../resourse/dou-green02.jpg">
+            <img class="items" src="../resourse/dou-green01.jpg">
+            <img class="items" src="../resourse/dou-green03.jpg">
+            <h5>在織的時候，其實沒有多想，只覺得穿起來要美美的</h5>
+            <h5>也是一織到底，我愛軍綠</h5>
+            <h6>材質:棉</h6>
+            <h6>價格:2460 NT</h6>
+            <h6>顏色：米白, 軍綠</h6>
+        </div>
+        <div class="bigitems-s">
+                <p>高領系列-給怕冷的妳</p> 
+               <img class="items" src="../resourse/long02.jpg">
+               <img class="items" src="../resourse/long01.jpg">
+               <img class="items" src="../resourse/long03.jpg">
+               <h5>秋冬來襲，高領就出現了</h5>
+               <h5>高領又肖肩，超有氣勢</h5>
+               <h6>材質:苧麻</h6>
+               <h6>價格:2660 NT</h6>
+               <h6>顏色：咖啡</h6>
+           </div>
+           <div class="bigitems-s">
+                <p>肚兜系列-給自然的妳</p> 
+               <img class="items" src="../resourse/specil01.jpg">
+               <img class="items" src="../resourse/specil02.jpg">
+               <h5>這件是在南美洲織的，和著南美雨林的濃烈，樹叢中的鮮巧總在織的過程中跳出</h5>
+               <h5>但現在材料不提供壓克力線了</h5>
+               <h6>材質:壓克力線x花線x棉</h6>
+               <h6>價格:3160 NT</h6>
+               <h6>顏色：軍綠，麻黃，靛藍，米白，灰</h6>
+           </div>
+        <div class="nothing"> </div>
+    </div>
+    <div id="exper" class="content-s">
+        <div><img class="titt" src="../resourse/dectitle.JPG"></div>
+        <h4>我的辣子裡沒有一對的耳環，每隻都是唯一（其實原因是我也做不出一模一樣的）</h4>
+        <div class="bigitems-s">
+          <p>漂流玻璃</p>
+          <img class="items" src="../resourse/dec01.jpg">
+          <h5>上次去象鼻岩吹風時撿的，猜想它的前身可能來自一個酒喝到肚子撐起來的怪誕阿伯，但他滿漂亮的，喜歡～</h5>
+          <h6>材質:漂流玻璃, 青銅Ｔ針</h6>
+          <h6>價格:250 NT</h6>
+        </div>
+        <div class="bigitems-s">
+            <p>紫水晶x白松石</p>
+            <img class="items" src="../resourse/dec02.jpg">
+            <h5>紫水晶幫助開腦，我很需要來戴一下.....</h5>
+            <h6>材質:紫水晶, 白松石, 青銅Ｔ針</h6>
+            <h6>價格:180 NT</h6>
+        </div>
+        <div class="nothing"> </div>
+    </div>
+    <div id="howtobuy" class="content-s">
+        <div><img class="titt" src="../resourse/group06.jpg"></div>
+        <p style="align-self: center;" >訂購流程</p>
+        <div class="showstep" ><h3>Step1＿＿於網站內選定喜歡的辣子</h3></div>
+        <div class="showstep" ><h3>Step2＿＿<a href="https://goo.gl/forms/SjTwBBceZ00dhUP72">點我</a>進入，填寫表單（一個帳號只能送出一次！請謹慎填寫）</h3></div> 
+        <div class="showstep" ><h3>Step3＿＿我將以Ｇmail與妳儘速聯繫！</h3></div>  
+        <div class="showstep" ><h3>Step4＿＿一個禮拜的工作天（若有特殊情形會通知）</h3></div> 
+        <div class="showstep" ><h3>Step5＿＿郵局轉帳，出貨！</h3></div>          
+    </div>
+    
+    <p style="align-self: center;color: gray;">常見問題</p>
+    <div class="questions">請問辣子的size有分嗎？<span class="answers">辣子均採綁帶式，除非是狀況特殊，不然不會分特大特小喔！<h5></h5>於訂購表單內會請辣妹填寫胸圍，請辣妹放心：）</span></div>
+    <div class="questions">請問綿和苧麻有什麼差別？<span class="answers">綿：涼且吸水力強，不會產生靜電，透氣吸汗。<h5></h5>苧麻熱傳導性能好，吸濕透氣性是棉纖維的3-5倍左右，含有絲光，是比較好的材料。</span></div>
+        
+    <div class="nothing"></div>
+    
+    <div style="align-self:center;">ContactMe Thru <a class="link" href="https://www.facebook.com/profile.php?id=100000385976336" style="color: rgb(132, 142, 160);">FB /</a> <a class="link" href="https://www.instagram.com/georgia_hiphop/" style="color: rgb(174, 180, 192);">IG</a></div>
+    <div class="end" ><a href="#backk" data-scroll style="color:gray;">我們回上面換氣</a></div>    
+</div>
+    <div class="nothing"> </div>
+    
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+  
+</body>
+</html>
+

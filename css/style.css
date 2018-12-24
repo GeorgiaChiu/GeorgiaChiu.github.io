@@ -1,0 +1,111 @@
+body,html{
+	height:100%;
+	margin:0;
+	font-family: 'Bree Serif', serif;
+}
+
+#sketch-holder{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height:100%;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column;
+
+}
+
+.top .button-top {
+    background-color: #daa520; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    width: 25%;
+		opacity:0.93;
+		-webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.top .button-top:hover {
+    background-color: 		#e1b74c;
+  opacity:0.7;
+}
+
+
+
+
+.top{
+	
+  /* display: -webkit-box;
+	display: -ms-flexbox; */
+	display: flex;
+	height: 20%;
+	/* -webkit-box-pack:justify;
+	-ms-flex-pack:justify; */
+	/* justify-content:space-around; */
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	margin-left:-4px;
+	margin-right:-4px;
+}
+
+a{
+	color:whitesmoke;
+	font-family: 'Bree Serif', serif;
+	letter-spacing: 6px;
+	text-decoration: none;
+	color: white;
+}
+
+a:link{
+  font-size: 15px; 
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+a :visited {
+  color: rgb(165, 31, 31);
+}
+a:hover {
+  color: rgb(145, 106, 125);
+}
+
+
+
+.link:hover{
+  color:	#0e2f44;
+  
+}
+
+.main{
+  text-align:center;
+	/* -webkit-box-flex:1; */
+	/* -ms-flex:1; */
+	flex:1;
+	width:100%;
+	
+    
+}
+
+
+.footer{
+	background-color:white;
+	text-align: center;
+  height: 5%;
+  opacity: 0.8;
+}
+
+.picgroup{
+  width: 80%;
+  opacity: 0.8;
+  
+
+}

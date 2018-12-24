@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+
+
+<body>
+
+  <html lang="zh-Hant-TW">
+  <head>
+	<title>Georgias'</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
+    <meta charset="utf-8">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+
+    <style>
+      canvas {
+           position:absolute;
+           top:0;
+           left:0;
+           width:100%;
+           height:100%;
+           z-index:-1;
+        }
+    </style>
+  </head>
+  <body>
+    
+	<div id="sketch-holder">
+	   <div class="top">		
+       <button class="button-top" data-pannelid="pannel1"><a>關 於 我</a></button>
+       <button class="button-top" data-pannelid="pannel2"><a href="pages/work.html">作 品</a></button>
+       <button class="button-top" data-pannelid="pannel3"><a href="pages/trip.html">旅 行</a></button>
+       <button class="button-top" data-pannelid="pannel4"><a href="pages/spicy.html">辣 子</a></button>
+       </div>  
+	   <div class="main">
+       <div>在這裡，請盡情的游
+         <img class="middleimg" id="001" >
+      </div>
+
+      <!-- <img src="" class="picgroup" id="pannel1" alt="AboutMe" hidden  > -->
+     
+     </div>
+  <div class="footer">ContactMe Thru <a class="link" href="https://www.facebook.com/profile.php?id=100000385976336">FB /</a> <a class="link" href="https://www.instagram.com/georgia_hiphop/">IG</a></a></div>	   
+	</div>	
+		</div>
+  </body>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+      $(function(){
+        $('.button-top').hover(function(){
+          // debugger;
+          var panelid= $(this).attr('data-pannelid');
+          $('#'+panelid).slideDown(100);
+        })
+
+        // $('.button-top').on('mouseover',function(){
+        //   var panelid= $(this).attr('data-pannelid');
+        //   $('.picgroup').clearQueue().slideUp(500);
+        //   $('#'+panelid).clearQueue().slideDown(500);
+      });
+
+      
+</script>  
+
+
+
+<script src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
