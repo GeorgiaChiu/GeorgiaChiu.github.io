@@ -4,7 +4,7 @@ var posts = [
       title: ":: 一辣年子 ::",
       date: "One Spicy",
       description: "<p>::音像互動裝置表演團體::</p><p></p><p>是傳說中「一年」和「辣子」的小孩，尚小，卻喜歡紅唇，生於二零一八年，爬百岳時會塗mac口紅。喜歡嘗試奇怪的穿戴式裝置，技術兼具，實用與美麗。<p>志向：成為穿戴裝置辣妹</p><p><p>表演團隊：邱靖雅, 王盈文</p><p>創團年份：2018<p> 表演素材:聲光 與 辣妹元素 <p>團隊期望：賺一波尾牙場</p>",
-      image: "../resourse/work5.jpg",
+      image: "../resourse/spicyniuse.jpg",
       clip_path: "polygon(80% 0%, 100% 80%, 50% 100%, 0% 50%)" },
     
     {
