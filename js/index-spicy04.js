@@ -59,7 +59,7 @@ const NavigationMenu = props => {
       href: "https://www.instagram.com/one_spicy/",
       target: "_blank",
       rel: "noopener noreferrer",
-      "aria-label": "Navigates to" }, "→Contact me via IG")))),
+      "aria-label": "Navigates to" }, "→Instagram ")))),
 
 
 
@@ -94,7 +94,7 @@ const Header = props => {
       "aria-label": "Toggle Navigation",
       onClick: event => toggleNavHandler(event) },
 
-    React.createElement("span", { className: `label--nav-closed${!navOpen ? ' active' : ''}` }, "menu"),
+    React.createElement("span", { className: `label--nav-closed${!navOpen ? ' active' : ''}` }, "❍CLICK"),
     React.createElement("span", { className: `label--nav-open${navOpen ? ' active' : ''}` }, "close")))));
 
 
@@ -168,8 +168,8 @@ class App extends React.Component {constructor(...args) {super(...args);_defineP
       React.createElement("img", { className: "some-image", src: "/resourse/group01.jpg" }),
       React.createElement("div", { className: "wrap" },
       React.createElement("div", { className: "text-body text-wrapper" },
-      React.createElement("p", null, "【冬日裡產出的辣妹針織品牌】"),
-      React.createElement("p", null, React.createElement("br", null), "2019的寒冬中，從被窩的溫熱中孵出的辣妹狂想。"),
+      React.createElement("p", null, "【2019 辣妹針織品牌】"),
+      React.createElement("p", null, React.createElement("br", null), "從被窩的溫熱中，孵出的辣妹狂想。"),
       React.createElement("p", null, React.createElement("br", null), "『做自己，就是辣。』"),
       React.createElement("p", null, React.createElement("br", null), "辣子秉持著辣妹精神，除了針織比基尼創作上的發展，還想盡盡凝聚辣妹來開發女子話題的想望。"))))));
 
