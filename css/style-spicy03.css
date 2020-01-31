@@ -291,6 +291,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #111;
 }
 .velo-slide__figure {
+  
   z-index: 0;
   position: relative;
   height: 100%;
