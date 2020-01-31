@@ -443,26 +443,26 @@ body {
 }
 
 p{
-
-  color: rgb(255, 255, 255);
-  font-size: 1.6rem;
+  color: white;
+  font-size: 1.5rem;
   text-align: center;
 
 }
 
 *{margin:0;padding:0;}
-.wrap{max-width:60%;margin:50px auto;padding-left:20px;border-left:6px solid rgb(173, 160, 160);border-radius:0%;}
+/* body{font:12px/1.5 "Arial";background-color:#73818D;color:#fff;} */
+.wrap{max-width:60%;margin:50px auto;padding-left:20px;border-left:6px solid rgb(192, 185, 185);border-radius:0%;}
 .wrap li{margin:2em 0;list-style-type:none;position:relative;}
 .wrap li input{display:none;}
 .wrap li .lab{margin:23px 0 10px;display:inline-block;font-size:20px;letter-spacing:1px;cursor:pointer;}
-.wrap li .date{position:absolute;left:-120px;top:50%;margin-top:-7px;font-size:14px;}
+.wrap li .date{position:absolute;left:-120px;top:50%;margin-top:-7px;font-size:20px;}
 .wrap li .circle{width:8px;height:8px;position:absolute;left:-30px;top:50%;margin-top:-4px;border:3px solid #fff;background-color:#4377E6;border-radius:50%;}
 .wrap li .content{max-height:50px;border:2px solid transparent;padding:0px 10px 20px 0px;border-radius:10px;position:relative;transition:max-height 0.3s linear,border-color 0.3s linear,transform 0.2s ease,padding 0.3s linear;}
-.wrap li .content p{font-size:16px;color:transparent;transition:color 0.2s linear;}
+.wrap li .content p{font-size:20px;color:transparent;transition:color 0.2s linear;}
 .wrap li .content:before,.wrap li .content:after{width:0px;height:0px;position:absolute;top:50%;right:100%;border:solid transparent;content:"";}
 .wrap li .content:before{border-width:15px;border-right-color:inherit;margin-top:-12px;}
-.wrap li .content:after{border-width:13px;border-right-color:#73818D;margin-top:-10px;}
+.wrap li .content:after{border-width:13px;border-right-color:rgb(111, 116, 119);margin-top:-10px;}
 
-input:checked ~ .content{max-height:200px;padding-left:20px;border-color:#fff;transform:translate3D(20px,0,0);}
+input:checked ~ .content{max-height:300px;padding-left:20px;border-color:#fff;transform:translate3D(20px,0,0);}
 input:checked ~ .content p{color:#fff;transition-delay:0.3s;transition-duration:0.5s;}
 input:checked ~ .content .lab{cursor:auto;}
