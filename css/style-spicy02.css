@@ -634,10 +634,10 @@ a {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-a:hover {
+nav a:hover {
   color: #2e2e2e;
 }
-a.active {
+nav a.active {
   color: #2e2e2e;
 }
 
@@ -788,6 +788,32 @@ h3{
   font-size: 1.8rem;
 
 }
+
+header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(241, 155, 155, 0.938);
+  z-index: 100; /* 通過 z-index 來定義元素的層級，愈大的數字會放在愈上層 */
+}
+.nav li {
+  display: inline-block; /* 讓導覽功能列水平排序 */
+}
+
+.nav a {
+  color: white;
+  text-transform: capitalize;
+  display: block; /* 須設定為block才能設定padding */
+  padding: 5px 5px;
+}
+
+nav .gett{
+
+  color: rgb(240, 58, 26);
+}
+
+
 
 
 

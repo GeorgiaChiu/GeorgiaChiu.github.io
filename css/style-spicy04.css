@@ -443,7 +443,7 @@ body {
 }
 
 p{
-  color: white;
+  color: rgb(104, 22, 22);
   font-size: 1.5rem;
   text-align: center;
 
@@ -464,5 +464,5 @@ p{
 .wrap li .content:after{border-width:13px;border-right-color:rgb(111, 116, 119);margin-top:-10px;}
 
 input:checked ~ .content{max-height:300px;padding-left:20px;border-color:#fff;transform:translate3D(20px,0,0);}
-input:checked ~ .content p{color:#fff;transition-delay:0.3s;transition-duration:0.5s;}
+input:checked ~ .content p{color:rgb(41, 29, 29);transition-delay:0.3s;transition-duration:0.5s;}
 input:checked ~ .content .lab{cursor:auto;}

@@ -69,7 +69,7 @@ const NavigationMenu = props => {
     React.createElement("div", { className: "col col-right col-image" },
     React.createElement("img", {
       className: "astro",
-      src: "https://i.imgur.com/0pWqp5j.png" }))))));
+      src: "resourse/logo01" }))))));
 
 
 
@@ -94,7 +94,7 @@ const Header = props => {
       "aria-label": "Toggle Navigation",
       onClick: event => toggleNavHandler(event) },
 
-    React.createElement("span", { className: `label--nav-closed${!navOpen ? ' active' : ''}` }, "❍CLICK"),
+    React.createElement("span", { className: `label--nav-closed${!navOpen ? ' active' : ''}` }, "❍ CLICK"),
     React.createElement("span", { className: `label--nav-open${navOpen ? ' active' : ''}` }, "close")))));
 
 
@@ -165,7 +165,7 @@ class App extends React.Component {constructor(...args) {super(...args);_defineP
       React.createElement("span", { className: "author" }, "⍌"))),
 
 
-      React.createElement("img", { className: "some-image", src: "/resourse/group01.jpg" }),
+      React.createElement("img", { className: "some-image", src: "/resourse/spicy02.jpg" }),
       React.createElement("div", { className: "wrap" },
       React.createElement("div", { className: "text-body text-wrapper" },
       React.createElement("p", null, "【2019 辣妹針織品牌】"),
