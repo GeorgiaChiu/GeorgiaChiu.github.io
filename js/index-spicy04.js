@@ -174,7 +174,7 @@ class App extends React.Component {constructor(...args) {super(...args);_defineP
       React.createElement("p", null, React.createElement("br", null), "❸ 做自己的有趣生物"),
       React.createElement("p", null, React.createElement("br", null), "【字義來源】"),
       React.createElement("p", null, React.createElement("br", null), "2019年初，辣妹的織品手作品牌，不只刺激眼睛，更是激勵生物想耍辣的天然本性。"),
-      React.createElement("p", null, React.createElement("br", null), "與古代可以入藥的辣子相比，此代的辣子較難入喉，宜穿戴，服貼你敏感又值得呵護的肌膚。辣子堅持『手作』與『客製』的精神，以時間與耐心熬出每個獨一無二，專屬於辣妹個性的辣子。"),
+      React.createElement("p", null, React.createElement("br", null), "與古代可以入藥的辣子相比，此代的辣子較難入喉，宜穿戴，服貼你敏感又值得呵護的肌膚。辣子堅持『手作』與『客製』的精神，以時間與巧思熬出每個獨一無二，專屬於辣妹個性的辣子。"),
       React.createElement("p", null, React.createElement("br", null), "希望每個人，都能在這不美麗的世界，活出最美的樣子。"))))));
     }}
 
