@@ -385,9 +385,10 @@ body .title-section .author {
   }
 }
 body .some-image {
-  width: 100%;
+  width: 50%;
   height: auto;
   margin-bottom: 60px;
+  margin-left: 25%;
 }
 body .text-wrapper {
   max-width: 900px;
@@ -443,9 +444,9 @@ body {
 }
 
 p{
-  color: rgb(104, 22, 22);
+  color: rgb(0, 0, 0);
   font-size: 1.5rem;
-  text-align: center;
+  text-align: left;
 
 }
 
