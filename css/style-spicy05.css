@@ -315,3 +315,13 @@ margin-top: 160px;
 
 }
 
+.discount{
+  text-decoration: line-through;
+  color: #d0d0d0;
+}
+.specialprice{
+  color: red;
+  padding-left: 10%;
+  
+}
+
