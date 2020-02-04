@@ -166,7 +166,7 @@ class App extends React.Component {constructor(...args) {super(...args);_defineP
 
 
       React.createElement("img", { className: "some-image", src: "/resourse/logo-spicy(B).png" }),
-      React.createElement("img", { className: "some-image", src: "/resourse/logo-spicy(B).png" }),
+
       React.createElement("div", { className: "wrap" },
       React.createElement("div", { className: "text-body text-wrapper" },
       React.createElement("p", null, "【字義解釋】"),

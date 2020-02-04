@@ -225,7 +225,7 @@ header p {
   overflow: hidden;
 }
 #s1, #s2, #s3, #s4 {
-  padding: 6px;
+  padding: 16px;
   background: #FFFFFF;
   position: absolute;
   left: 50%;
@@ -235,10 +235,10 @@ header p {
   cursor: pointer;
   z-index: 999;
 } 
-#s1 {margin-left: -36px;}
-#s2 {margin-left: -12px;}
-#s3 {margin-left: 12px;}
-#s4 {margin-left: 36px;}
+#s1 {margin-left: -116px;}
+#s2 {margin-left: -62px;}
+#s3 {margin-left: -8px;}
+#s4 {margin-left: 46px;}
 #s1:hover, #s2:hover, #s3:hover,#s4:hover{ opacity: 1;}
 .inner-wrapper {
   width: 1024px;
