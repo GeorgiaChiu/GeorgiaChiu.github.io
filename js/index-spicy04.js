@@ -26,7 +26,7 @@ const NavigationMenu = props => {
     React.createElement("ul", { className: "links" },
     React.createElement("li", { className: "link" },
     React.createElement("a", {
-      href: "/index-spicy02.html",
+      href: "/index-spicy05.html",
       target: "_blank",
       rel: "noopener noreferrer",
       "aria-label": "Navigates to" }, "❍ 看辣子")),
@@ -162,21 +162,22 @@ class App extends React.Component {constructor(...args) {super(...args);_defineP
       React.createElement("div", { className: "wrap" },
       React.createElement("div", { className: "title-section text-wrapper" },
       React.createElement("h1", null, "Ready to get Spicy?"),
-      React.createElement("span", { className: "author" }, "⍌"))),
+      React.createElement("span", { className: "author" }, "⍌")))))); // 3個括弧 ))),
+      // 3個括弧
 
 
-      React.createElement("img", { className: "some-image", src: "/resourse/logo-spicy(B).png" }),
-
-      React.createElement("div", { className: "wrap" },
-      React.createElement("div", { className: "text-body text-wrapper" },
-      React.createElement("p", null, "【字義解釋】"),
-      React.createElement("p", null, React.createElement("br", null), "❶ 像姜、蒜等的剌激性味道：～椒（一年生草木植物，果實有毛筆尖形、燈籠形等，青色，成熟後變成紅色。可食，亦可入藥。亦稱“辣子”）。"),
-      React.createElement("p", null, React.createElement("br", null), "❷ 刺激眼睛，卻還是想看 "),
-      React.createElement("p", null, React.createElement("br", null), "❸ 做自己的有趣生物"),
-      React.createElement("p", null, React.createElement("br", null), "【字義來源】"),
-      React.createElement("p", null, React.createElement("br", null), "2019年初，辣妹的織品手作品牌，不只刺激眼睛，更是激勵生物想耍辣的天然本性。"),
-      React.createElement("p", null, React.createElement("br", null), "與古代可以入藥的辣子相比，此代的辣子較難入喉，宜穿戴，服貼你敏感又值得呵護的肌膚。辣子堅持『手作』與『客製』的精神，以時間與巧思熬出每個獨一無二，專屬於辣妹個性的辣子。"),
-      React.createElement("p", null, React.createElement("br", null), "希望每個人，都能在這不美麗的世界，活出最美的樣子。"))))));
+      // React.createElement("img", { className: "some-image", src: "/resourse/logo-spicy(B).png" }),
+      // React.createElement("img", { className: "some-image", src: "/resourse/logo-spicy(B).png" }),
+      // React.createElement("div", { className: "wrap" },
+      // React.createElement("div", { className: "text-body text-wrapper" },
+      // React.createElement("p", null, "【字義解釋】"),
+      // React.createElement("p", null, React.createElement("br", null), "❶ 像姜、蒜等的剌激性味道：～椒（一年生草木植物，果實有毛筆尖形、燈籠形等，青色，成熟後變成紅色。可食，亦可入藥。亦稱“辣子”）。"),
+      // React.createElement("p", null, React.createElement("br", null), "❷ 刺激眼睛，卻還是想看 "),
+      // React.createElement("p", null, React.createElement("br", null), "❸ 做自己的有趣生物"),
+      // React.createElement("p", null, React.createElement("br", null), "【字義來源】"),
+      // React.createElement("p", null, React.createElement("br", null), "2019年初，辣妹的織品手作品牌，不只刺激眼睛，更是激勵生物想耍辣的天然本性。"),
+      // React.createElement("p", null, React.createElement("br", null), "與古代可以入藥的辣子相比，此代的辣子較難入喉，宜穿戴，服貼你敏感又值得呵護的肌膚。辣子堅持『手作』與『客製』的精神，以時間與巧思熬出每個獨一無二，專屬於辣妹個性的辣子。"),
+      // React.createElement("p", null, React.createElement("br", null), "希望每個人，都能在這不美麗的世界，活出最美的樣子。"))))));
     }}
 
 
