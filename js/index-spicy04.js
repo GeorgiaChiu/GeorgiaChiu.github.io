@@ -46,10 +46,10 @@ const NavigationMenu = props => {
 
     React.createElement("li", { className: "link" },
     React.createElement("a", {
-      href: "",
+      href: "index-spicy07.html",
       target: "_blank",
       rel: "noopener noreferrer",
-      "aria-label": "Navigates to" }, "❍ 前往表單")),
+      "aria-label": "Navigates to" }, "❍ 前往訂購")),
 
 
 
@@ -94,7 +94,7 @@ const Header = props => {
       "aria-label": "Toggle Navigation",
       onClick: event => toggleNavHandler(event) },
 
-    React.createElement("span", { className: `label--nav-closed${!navOpen ? ' active' : ''}` }, "❍ CLICK"),
+    React.createElement("span", { className: `label--nav-closed${!navOpen ? ' active' : ''}` }, "❍ CLICK ME"),
     React.createElement("span", { className: `label--nav-open${navOpen ? ' active' : ''}` }, "close")))));
 
 

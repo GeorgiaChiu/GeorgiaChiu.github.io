@@ -319,12 +319,13 @@ h6:first-child {
 .header .wrap .nav-button.is-animating span.active {
   transform: translateY(50%);
   opacity: 0;
+  
 }
 .header .wrap .nav-button span {
   position: absolute;
-  top: 0;
+  top: 100px;
   left: auto;
-  right: 0;
+  right: 100px;
   display: block;
   transform: translateY(-50%);
   opacity: 0;
@@ -335,6 +336,8 @@ h6:first-child {
 .header .wrap .nav-button span.active {
   transform: translateY(0%);
   opacity: 1;
+  font-size: 30px;
+  color: slategrey;
 }
 .header .wrap .nav-button span.label--nav-open.active {
   color: #6e6c6e;

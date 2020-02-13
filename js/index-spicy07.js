@@ -91,14 +91,14 @@ var Ccolor ={ normalcoC1:"2",
                picC6:"/resourse/bluee.jpg",
                priceC6:"Not Supply",
                nameC6:"毛線小肚兜"};
-var Dcolor ={ priceD1:"180/一附",
-              nameD1:"辣耳環",
+var Dcolor ={ nameD1:"辣耳環",
               picD1:"/resourse/bluee.jpg",
-              priceD2:600,
+              priceD1:"180/一附",
               nameD2:"辣髮帶",
               normalcoD2:"4", 
               specialcoD2:"1",
-              picD2:"/resourse/bluee.jpg"
+              picD2:"/resourse/bluee.jpg",
+              priceD2:600
             };
 
 var Ecolor ={ normalcoE1:"2", 
@@ -132,6 +132,11 @@ function stopimg(){
         document.getElementById('pic').classList.remove('showani')
     }, 500)
     document.getElementById("showtext").innerHTML = "太好了！請往下！";
+}
+
+function gogo(){
+
+    document.getElementById('result').classList.add('');
 }
 
 
@@ -481,22 +486,26 @@ $("input.variation").on("click", function() {
         }) 
         $("#radio-3").on("click", function(){
             document.getElementById("pic").src =no;
-            document.getElementById("showtext").innerHTML = "項目不存在唷"; 
+            document.getElementById("showtext").innerHTML = "項目不存在唷";
+            document.getElementById("howmany").innerHTML = "請看別的品項"; 
            
         })
         $("#radio-4").on("click", function(){
             document.getElementById("pic").src =no;
             document.getElementById("showtext").innerHTML = "項目不存在唷"; 
+            document.getElementById("howmany").innerHTML = "請看別的品項"; 
         })
 
         $("#radio-5").on("click", function(){
             document.getElementById("pic").src =no;
             document.getElementById("showtext").innerHTML = "項目不存在唷"; 
+            document.getElementById("howmany").innerHTML = "請看別的品項"; 
            
         })
         $("#radio-6").on("click", function(){
             document.getElementById("pic").src =no;
             document.getElementById("showtext").innerHTML = "項目不存在唷"; 
+            document.getElementById("howmany").innerHTML = "請看別的品項"; 
         })
         
        
@@ -556,11 +565,13 @@ $("input.variation").on("click", function() {
         $("#radio-5").on("click", function(){
             document.getElementById("pic").src =no;
             document.getElementById("showtext").innerHTML = "項目不存在唷"; 
+            document.getElementById("howmany").innerHTML = "請看別的品項"; 
            
         })
         $("#radio-6").on("click", function(){
             document.getElementById("pic").src =no;
             document.getElementById("showtext").innerHTML = "項目不存在唷"; 
+            document.getElementById("howmany").innerHTML = "請看別的品項"; 
         })
 
     }
