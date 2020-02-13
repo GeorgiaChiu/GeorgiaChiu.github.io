@@ -1259,6 +1259,9 @@ img{
 .rotating {
   animation: rotating 0.5s linear infinite;
 }
+
+
+
 #explosion {
   transition: all 1s;
   
@@ -1302,11 +1305,17 @@ img{
     padding-bottom: 200px;
     text-align: center;
     color: gray;
+    background-color: darkgray;
+    animation: go 5s infinite;
+}
+
+@keyframes go {
+  50% {text-shadow: 10px 10px 20px rgb(223, 210, 223);}
 }
 
 h2 a{
-
-  color: cadetblue;
+  animation: gogo 3s infinite;
+  color: whitesmoke;
 }
 
 

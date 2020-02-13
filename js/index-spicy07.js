@@ -627,7 +627,7 @@ $("input.variation").on("click", function() {
                 }, 1000)
             }
 
-            document.getElementById('result').textContent = "感謝辣妹的訂購" + "請等待Email通知";
+            document.getElementById('result').textContent = "感謝辣妹的訂購,請等待Email通知";
             
             return false;
         });
