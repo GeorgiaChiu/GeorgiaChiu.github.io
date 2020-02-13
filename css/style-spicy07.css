@@ -58,12 +58,14 @@ main > section > h6 {
   position: absolute;
   top: -10px;
   left: 20px;
+  
   padding: 0 10px;
 }
 main > section h6.subheader {
   color: var(--grayColor);
   margin-bottom: 20px;
   margin-top: 20px;
+  margin-left: 20px;
   width: 100%;
 }
 

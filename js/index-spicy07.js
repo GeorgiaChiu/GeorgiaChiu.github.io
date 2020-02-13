@@ -152,7 +152,7 @@ $("input.variation").on("click", function() {
 		$("footer").attr('class','bluepurple');
         
        document.getElementById('types').innerHTML = typeA;
-       document.getElementById('ready').innerHTML = "✘請選擇上面編號";
+       document.getElementById('ready').innerHTML = "✘請選編號";
        document.getElementById('raa1').style.color='rgba(0,0,0)';
        document.getElementById('raa2').style.color='rgba(0,0,0)';
        document.getElementById('raa3').style.color='rgba(0,0,0)';
@@ -193,17 +193,9 @@ $("input.variation").on("click", function() {
         }) 
         $("#radio-3").on("click", function(){
             document.getElementById("pic").src = Acolor.picA3;
-            document.getElementById("showtext").innerHTML = "這是你要的辣子嗎？";
-            document.getElementById('ready').innerHTML = "✔ 確認";
-            document.getElementById("showprice").innerHTML = Acolor.priceA3;
-            document.getElementById("howmany").innerHTML = 
-            "辣妹可選擇"+Acolor.normalcoA3 + "個純色 及" + Acolor.specialcoA3 + "個花線";
-                $("#radio-10").on("click", function(){
-                document.getElementById("showprice").innerHTML = Acolor.priceA3 + 120 ;
-                })
-                $("#radio-11").on("click", function(){
-                document.getElementById("showprice").innerHTML = Acolor.priceA3;
-                })
+            document.getElementById("showtext").innerHTML = "項目不再提供囉"; 
+            document.getElementById("howmany").innerHTML = "請選其他品項";
+            document.getElementById("showprice").innerHTML = "項目不存在";
         })
         $("#radio-4").on("click", function(){
             document.getElementById("pic").src = Acolor.picA4;
@@ -239,6 +231,7 @@ $("input.variation").on("click", function() {
             document.getElementById("pic").src = no;
             document.getElementById("showtext").innerHTML = "項目不存在唷"; 
             document.getElementById("howmany").innerHTML = "請選其他品項";
+            document.getElementById("showprice").innerHTML = "項目不存在";
         })
        
   
@@ -323,11 +316,14 @@ $("input.variation").on("click", function() {
             document.getElementById("pic").src =no;
             document.getElementById("showtext").innerHTML = "項目不存在唷"; 
             document.getElementById("howmany").innerHTML = "請選其他品項";
+            document.getElementById("showprice").innerHTML = "項目不存在";
+      
         })
         $("#radio-6").on("click", function(){
             document.getElementById("pic").src =no;
             document.getElementById("showtext").innerHTML = "項目不存在唷"; 
             document.getElementById("howmany").innerHTML = "請選其他品項";
+            document.getElementById("showprice").innerHTML = "項目不存在";
         })
        
         
@@ -349,17 +345,9 @@ $("input.variation").on("click", function() {
         
         $("#radio-1").on("click", function(){
             document.getElementById("pic").src = Ccolor.picC1;
-            document.getElementById("showtext").innerHTML = "這是你要的辣子嗎？";
-            document.getElementById('ready').innerHTML = "✔ 確認";
-            document.getElementById("showprice").innerHTML = Ccolor.priceC1;
-            document.getElementById("howmany").innerHTML = 
-            "辣妹可選擇"+Ccolor.normalcoC1 + "個純色 及" + Ccolor.specialcoC1 + "個花線";
-            $("#radio-10").on("click", function(){
-                document.getElementById("showprice").innerHTML = Ccolor.priceC1 + 120 ;
-            })
-            $("#radio-11").on("click", function(){
-                document.getElementById("showprice").innerHTML = Ccolor.priceC1;
-            })
+            document.getElementById("showtext").innerHTML = "項目不再提供囉"; 
+            document.getElementById("howmany").innerHTML = "請選其他品項";
+            document.getElementById("showprice").innerHTML = "項目不存在";
            
         })
         $("#radio-2").on("click", function(){
@@ -424,17 +412,9 @@ $("input.variation").on("click", function() {
         })
         $("#radio-6").on("click", function(){
             document.getElementById("pic").src = Ccolor.picC6;
-            document.getElementById("showtext").innerHTML = "這是你要的辣子嗎？";
-            document.getElementById('ready').innerHTML = "✔ 確認";
-            document.getElementById("showprice").innerHTML = Ccolor.priceC6;
-            document.getElementById("howmany").innerHTML = 
-            "辣妹可選擇"+Ccolor.normalcoC6 + "個純色 及" + Ccolor.specialcoC6 + "個花線";
-            $("#radio-10").on("click", function(){
-                document.getElementById("showprice").innerHTML = Ccolor.priceC6 + 120 ;
-            })
-            $("#radio-11").on("click", function(){
-                document.getElementById("showprice").innerHTML = Ccolor.priceC6;
-            })
+            document.getElementById("showtext").innerHTML = "項目不再提供囉"; 
+            document.getElementById("howmany").innerHTML = "請選其他品項";
+            document.getElementById("showprice").innerHTML = "項目不存在";
            
         })
         
@@ -493,19 +473,22 @@ $("input.variation").on("click", function() {
         $("#radio-4").on("click", function(){
             document.getElementById("pic").src =no;
             document.getElementById("showtext").innerHTML = "項目不存在唷"; 
-            document.getElementById("howmany").innerHTML = "請看別的品項"; 
+            document.getElementById("howmany").innerHTML = "請選其他品項";
+            document.getElementById("showprice").innerHTML = "項目不存在";
         })
 
         $("#radio-5").on("click", function(){
             document.getElementById("pic").src =no;
             document.getElementById("showtext").innerHTML = "項目不存在唷"; 
             document.getElementById("howmany").innerHTML = "請看別的品項"; 
+            document.getElementById("showprice").innerHTML = "項目不存在";
            
         })
         $("#radio-6").on("click", function(){
             document.getElementById("pic").src =no;
             document.getElementById("showtext").innerHTML = "項目不存在唷"; 
             document.getElementById("howmany").innerHTML = "請看別的品項"; 
+            document.getElementById("showprice").innerHTML = "項目不存在";
         })
         
        
@@ -549,7 +532,7 @@ $("input.variation").on("click", function() {
             document.getElementById("pic").src = Ecolor.picE3;
             document.getElementById("howmany").innerHTML = 
             "跳過選顏色，直接往下";
-            document.getElementById("showprice").innerHTML = Ccolor.priceE3;
+            document.getElementById("showprice").innerHTML = Ecolor.priceE3;
            
         })
         $("#radio-4").on("click", function(){
@@ -558,7 +541,7 @@ $("input.variation").on("click", function() {
             document.getElementById("pic").src = Ecolor.picE4;
             document.getElementById("howmany").innerHTML = 
             "跳過選顏色，直接往下";
-            document.getElementById("showprice").innerHTML = Ccolor.priceE4;
+            document.getElementById("showprice").innerHTML = Ecolor.priceE4;
            
         })
 
@@ -566,12 +549,14 @@ $("input.variation").on("click", function() {
             document.getElementById("pic").src =no;
             document.getElementById("showtext").innerHTML = "項目不存在唷"; 
             document.getElementById("howmany").innerHTML = "請看別的品項"; 
+            document.getElementById("showprice").innerHTML = "項目不存在";
            
         })
         $("#radio-6").on("click", function(){
             document.getElementById("pic").src =no;
             document.getElementById("showtext").innerHTML = "項目不存在唷"; 
             document.getElementById("howmany").innerHTML = "請看別的品項"; 
+            document.getElementById("showprice").innerHTML = "項目不存在";
         })
 
     }
