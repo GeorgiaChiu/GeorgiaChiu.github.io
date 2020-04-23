@@ -10,7 +10,7 @@
   line-height: 1.42857143;
   color: rgb(182, 3, 3);
   background-color: #fff;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Bree Serif', serif;;
 }
 
  section {
@@ -57,16 +57,19 @@
  }
 
  .container {
-  width: 85%;
+  width: 80%;
   max-width: 1170px;
   margin: 0 auto;
+  perspective: 200rem;
   position: relative;
+  
+
 }
 
  h2 {
    margin-bottom: 75px;
    text-align: center;
-   font-size: 40px;
+   font-size: 38px;
    line-height: 50px;
    text-transform: uppercase;
    letter-spacing: 2px; /* 文字間距 */
@@ -75,7 +78,7 @@
  header {
   position: fixed;
   width: 100%;
-  left: 0;
+  left: -10%;
   right: 0;
   background-color: rgb(255, 0, 0);
   z-index: 100; /* 通過 z-index 來定義元素的層級，愈大的數字會放在愈上層 */
@@ -83,6 +86,8 @@
 
  #logo {
   float: left;
+  padding: 10px 12px;
+  font-size: 14px;;
 }
 
  .nav {
@@ -99,6 +104,106 @@
     display: block; /* 須設定為block才能設定padding */
     padding: 10px 12px;
  }
+
+ /* menu start*/
+
+ .container #menu-toggle {
+  position: fixed;
+  top: -3rem;
+}
+.container .menu {
+  background: whitesmoke;
+  height: 100%;
+  padding-top: 7rem;
+  position: fixed;
+  transform-origin: left top;
+  transform-style: preserve-3d;
+  transform: rotateY(105deg);
+  top: 0;
+  width: 16rem;
+}
+.container .menu label.fa-remove {
+  border: .1rem solid #000;
+  border-radius: 50%;
+  color: #000;
+  cursor: pointer;
+  font-size: 4rem;
+  height: 5rem;
+  line-height: 4.6rem;
+  position: absolute;
+  right: 1rem;
+  text-align: center;
+  top: 1rem;
+  width: 5rem;
+}
+.container .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.container .menu ul li a {
+  color: #000;
+  background: whitesmoke;
+  display: block;
+  padding: 1rem 2rem 1rem 3rem;
+  text-align: right;
+  text-decoration: none;
+  transform: translateX(-1rem);
+  width: 17rem;
+}
+.container .menu ul li a:hover {
+  background: #333;
+  border-radius: 0 .2rem .2rem 0;
+  color: #eee;
+  padding-right: 3rem;
+  position: relative;
+  transform: translateX(0rem);
+}
+.container .content {
+  background: #fff;
+  height: 100%;
+  overflow: auto;
+  padding: 7rem 1.5rem 1.5rem;
+  transform-origin: right top;
+  transform-style: preserve-3d;
+  width: 100%;
+}
+.container .content label.fa-navicon {
+  background: #fff;
+  border: .1rem solid #000;
+  border-radius: .2rem;
+  color: #000;
+  cursor: pointer;
+  font-size: 4rem;
+  height: 5rem;
+  left: 1rem;
+  line-height: 5rem;
+  position: absolute;
+  text-align: center;
+  top: 1rem;
+  width: 5rem;
+}
+.container #menu-toggle:checked ~ .menu {
+  transform: rotateY(0deg);
+  z-index: 50;
+}
+.container #menu-toggle:checked ~ .content {
+  overflow: hidden;
+  transform: rotateY(-30deg);
+}
+
+/* start transitions */
+.container .menu,
+.container #menu-toggle:checked ~ .content {
+  transition: all 1s ease;
+}
+.container #menu-toggle:checked ~ .menu,
+.container .content {
+  transition: all 1s ease .2s;
+}
+.container .menu ul li a {
+  transition: all .3s ease .1s;
+}
 
 /* ---- Home page background image/start ---- */
  .home_bg {
@@ -240,6 +345,8 @@
   float: left;
   width: 33.33%;
   padding: 0 15px;
+  letter-spacing: 2px; /* 文字間距 */
+
 }
 
 .service-content2 {
@@ -357,6 +464,16 @@ h3.resume-subtitle {
   width: 100%;
 }
 
+.visual-animate {
+  background-image: url(/resourse/works/visuals/visual02.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* 讓背景跟著網頁移動 */
+  position: relative;
+  width: 100%;
+}
+
  .quote-inner {
    color: white;
    text-align: center;
@@ -383,6 +500,7 @@ h3.resume-subtitle {
    letter-spacing: 3px;
  }
 
+
 /* ---- Quotes/End ---- */
 /* ---- Latest work/Start ---- */
 
@@ -394,10 +512,11 @@ h3.resume-subtitle {
    float: left;
    width: 100%;
    padding: 10px 15px;
+   text-align: right;
  }
  .col-work p {
-  font-size: 18px;
-
+  font-size: 8px;
+  color: gray;
   text-transform: capitalize;
   padding: 10px 15px;
 }
@@ -414,6 +533,8 @@ h3.resume-subtitle {
    -o-transition: .2s linear;
    transition: .2s linear;
  }
+ 
+
 
  .col-work a:hover {
    box-shadow: 0 16px 22px 0 rgba(90, 91, 95, 0.3);
@@ -422,6 +543,7 @@ h3.resume-subtitle {
 
 /* ---- Latest work/End ---- */
 /* ---- Contact/Start ---- */
+
 
  .contact-form {
    width: 65%;
