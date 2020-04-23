@@ -567,7 +567,6 @@ h3.resume-subtitle {
    width: 100%;
    border: none;
    border-bottom: 1px solid #333;
-   text-transform: capitalize;
    padding-bottom: 19px;
    margin-bottom: 12px;
    outline: none; /* 去除輸入時會出現的藍色外框 */
@@ -587,7 +586,6 @@ h3.resume-subtitle {
 
  .form-submit input {
    font-size: 16px;
-   text-transform: capitalize;
    background-color: transparent;
    border: 1px solid black;
    border-radius: 12px;
