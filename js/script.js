@@ -3,7 +3,7 @@
 
 var images = [
     "/resourse/intro01-2.JPG",
-    "/resourse/works/visuals/visual04.png",
+    "/resourse/works/visuals/visual04.jpg",
     "/resourse/energy-1.jpg",
     "/resourse/works/performance/201906-3.jpg",
     "/resourse/works/performance/201906-7-1.jpg",
