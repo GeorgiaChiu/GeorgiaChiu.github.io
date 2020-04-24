@@ -57,7 +57,7 @@
  }
 
  .container {
-  width: 80%;
+  width: 90%;
   max-width: 1170px;
   margin: 0 auto;
   perspective: 200rem;
@@ -86,7 +86,7 @@
 
  #logo {
   float: left;
-  padding: 10px 12px;
+  padding: 10px 32px;
   font-size: 14px;;
 }
 
@@ -445,7 +445,7 @@ h3.resume-subtitle {
 /* ---- Resume/End ---- */
 /* ---- Quotes/Start ---- */
  .quotes {
-   background-image: url(/resourse/works/visuals/visual03.png);
+   background-image: url(/resourse/works/visuals/visual03.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -465,7 +465,7 @@ h3.resume-subtitle {
 }
 
 .visual-animate {
-  background-image: url(/resourse/works/visuals/visual02.png);
+  background-image: url(/resourse/works/visuals/visual02.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

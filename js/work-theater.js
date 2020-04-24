@@ -2,11 +2,10 @@
 
 
 var images = [
-    "/resourse/intro01-2.JPG",
-    "/resourse/works/visuals/visual04.png",
-    "/resourse/energy-1.jpg",
-    "/resourse/works/performance/201906-3.jpg",
-    "/resourse/works/performance/201906-7-1.jpg",
+    "/resourse/works/theater/gateway01.jpg",
+    "/resourse/works/theater/gateway03.jpg",
+    "/resourse/works/theater/the-remain-people02-1.jpg",
+    "/resourse/works/theater/cantsee-3-1.JPG",
   ]
   // instanciate slider
   var rbgShiftSlider = new rbgShiftSlider({

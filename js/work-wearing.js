@@ -2,19 +2,17 @@
 
 
 var images = [
-    "/resourse/intro01-2.JPG",
-    "/resourse/works/visuals/visual04.png",
-    "/resourse/energy-1.jpg",
-    "/resourse/works/performance/201906-3.jpg",
-    "/resourse/works/performance/201906-7-1.jpg",
+    "/resourse/works/wearing/light-1-1.jpg",
+    "/resourse/works/wearing/support-5-1.jpg",
+    "/resourse/works/wearing/support-2.JPG",
   ]
   // instanciate slider
   var rbgShiftSlider = new rbgShiftSlider({
     // nav : true,
     // navElement: '.scene-nav',
     slideImages: images,
-    stageWidth: 1920,
-    stageHeight: 1080,
+    stageWidth: 1280,
+    stageHeight: 720,
     displacementImage: 'http://hmongouachon.com/_demos/rgbShiftSlider/displace-circle.png',
     fullScreen: true,
     transitionDuration: 0.55, // must be 0.1 > transitionGhostDuration

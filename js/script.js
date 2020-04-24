@@ -13,8 +13,8 @@ var images = [
     // nav : true,
     // navElement: '.scene-nav',
     slideImages: images,
-    stageWidth: 1920,
-    stageHeight: 1080,
+    stageWidth: 1280,
+    stageHeight: 720,
     displacementImage: 'http://hmongouachon.com/_demos/rgbShiftSlider/displace-circle.png',
     fullScreen: true,
     transitionDuration: 0.55, // must be 0.1 > transitionGhostDuration
