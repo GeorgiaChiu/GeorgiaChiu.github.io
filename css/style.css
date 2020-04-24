@@ -87,7 +87,8 @@
  #logo {
   float: left;
   padding: 10px 10%;
-  font-size: 14px;;
+  font-size: 14px;
+  color: #000;
 }
 
  .nav {
