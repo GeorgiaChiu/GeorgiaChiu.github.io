@@ -361,7 +361,7 @@
 /* ---- What I offer/Start ---- */
 
 .my_service {
-  background-image: repeating-linear-gradient(lightgray, white);
+  background-color: lightgrey;
 }
 .my_lazi {
   /* background-color: #f9dbcb; */
@@ -383,6 +383,17 @@
   float: left;
   width: 50%;
   padding: 0 15px;
+}
+
+.service-content2 a{
+  color: rgb(182, 3, 3);
+   border: 1px solid rgb(182, 3, 3);
+   border-radius: 11px;
+   padding: 12px 49px;
+   display: inline-block;
+   margin-top: 22px;
+   text-transform: uppercase;
+   letter-spacing: 3px;
 }
 
 .service-content i {
