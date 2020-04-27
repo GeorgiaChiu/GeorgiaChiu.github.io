@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
 html,body{
   margin:0;
-  height:120%;
-  font-family: 'Josefin Sans', sans-serif;
+  height:100%;
+  font-family: 'Bree Serif', serif;
+  
 
 }
 .header{
@@ -39,7 +40,7 @@ html,body{
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
     transform: translateZ(0);
-  background:#1B2030 url(../resourse/introme00.jpg) top center no-repeat;
+  background:#1B2030 url(/resourse/profile.jpg) top center no-repeat;
   background-size:cover;
   background-attachment:fixed;
   animation: grow 60s  linear 10ms infinite;
@@ -122,4 +123,76 @@ html,body{
 .twtr{
   margin-top:100px
 }.btn.twtr:after{content:"\1F426";padding-left:5px}
+
+footer {
+  padding: 80px 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.footer-content p {
+  line-height: 22px;
+}
+
+ul{
+  background-color: lawngreen;
+  /* font-family: "Arial Black", Gadget, sans-serif; */
+  color: white;
+  font-size: 20px;
+}
+
+li{
+  
+}
+
+
+.footer-social-icon a i {
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 15px 15px 0 0;
+}
+
+.quotes {
+  background-image: url(/resourse/works/visuals/visual03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* 讓背景跟著網頁移動 */
+  position: relative;
+  width: 100%;
+}
+
+
+.quote-inner {
+  color: white;
+  text-align: center;
+  padding: 10%;
+}
+
+.quote-inner h3 {
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.quote-inner p {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.quote-inner a {
+  color: white;
+  border: 1px solid white;
+  border-radius: 11px;
+  padding: 12px 49px;
+  display: inline-block;
+  margin-top: 22px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+
 
