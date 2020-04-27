@@ -2,10 +2,10 @@
 
 
 var images = [
+    "/resourse/works/performance/201807-1-1.jpg",
     "/resourse/works/visuals/visual02.jpg",
-    "/resourse/works/visuals/visual03.jpg",
-    "/resourse/works/visuals/visual04.jpg",
-    "/resourse/works/visuals/visual05.jpg",
+    "/resourse/works/theater/the-remain-people02-1.jpg",
+    "/resourse/works/wearing/support-2.JPG",
   ]
   // instanciate slider
   var rbgShiftSlider = new rbgShiftSlider({
