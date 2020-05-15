@@ -190,7 +190,9 @@ h1 {
   display: none;
   background-color: #262626;
   padding-left: 8px;
+  border-radius: 10px;
 }
+
 
 .container .menu ul {
   list-style-type: none;
@@ -343,21 +345,25 @@ h1 {
  }
 
  .personal-info h3 {
-    font-size: 15px;
+    font-size: 30px;
     letter-spacing: 2px; /* 文字間距 */
-    margin-bottom: 6px;
+    margin: 26px;
+    text-align: left;
     text-transform: capitalize;
  }
 
  .personal-info p {
    color: #444343;
+   font-size: 18px;
    line-height: 24px;
    text-align: justify; /* 左右對齊 */
+   padding:15px;
+   border-radius: 5px;
  }
 
  .skill li {
    color: #767676;
-   font-size: 12px;
+   font-size: 16px;
    line-height: 25px;
    text-transform: capitalize;
  }
@@ -366,6 +372,39 @@ h1 {
    display: inline-block;
    padding-top: 10px;
  }
+
+ .dropdown-container {
+  display: none;
+  background-color: rgb(37, 142, 255);
+  padding-left: 8px;
+}
+.personal-info button{
+  color: black;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  padding: 15px 60px;
+  background-color: white;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top: 20px;
+  font-size: 16px;
+  width: 80%;
+ }
+
+ .personal-info li{
+   font-size: 16px;
+   color: black;
+   padding-top: 5px;
+
+ }
+ .personal-info a{
+  font-size: 16px;
+  
+  color: rgb(35, 130, 207);
+
+}
+
+
 
  .button-group .download_cv {
    margin-right: 18px;
@@ -391,6 +430,72 @@ h1 {
    transition: all .4s linear; /* all: 套用到文字和背景(亦可不寫) .4s: 動畫開始到結束的時間, linear: 線性動畫 */
  }
 
+ #spe{
+    width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+    -webkit-animation: breathing 3s ease-out infinite normal;
+    animation: breathing 3s ease-out infinite normal;
+    font-size: 16px;
+    background: rgb(37, 142, 255);
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 3px;
+    border-color: white;
+    text-align: center;    
+    }
+
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+
+ 
 /* ---- About me/end - --- */
 /* ---- What I offer/Start ---- */
 
@@ -596,6 +701,8 @@ h3.resume-subtitle {
 
  
 
+ 
+
 /* ---- Quotes/End ---- */
 /* ---- Latest work/Start ---- */
 
@@ -724,3 +831,22 @@ h3.resume-subtitle {
  
 
 /* ---- Footer/End ---- */
+
+.glow {
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8a8a8a, 0 0 40px #7e7e7e, 0 0 50px #3a3a3a, 0 0 60px #695d63, 0 0 70px #888788;
+  }
+  
+  to {
+    text-shadow: 0 0 20px rgb(15, 121, 170), 0 0 30px #666666, 0 0 40px #777777, 0 0 50px #251070, 0 0 60px #0d3b8f, 0 0 70px #1bb1c5, 0 0 80px #150f6b;
+  }
+}
