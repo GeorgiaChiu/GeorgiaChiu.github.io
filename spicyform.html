@@ -23,14 +23,14 @@
 <label for="godiva">Ⅲ</label>
 <input class="variation" id="dark" type="radio" value="4" name="bigtype"/>
 <label for="dark">Ⅳ</label>
-<!-- <input class="variation" id="pinkaru" type="radio" value="5" name="bigtype"/>
-<label for="pinkaru">E</p></label> -->
+
 <br>
-<h6 class="checkboxes" style="text-align: center;padding-top:20px ;"id="types"></h6>
+
 <main>
   <!-- //show pics -->
   <section class="colors">
-    <h6>辣子的款式</h6>
+    <h6 class="checkboxes" style="text-align: center;padding-top:20px ;"id="types"></h6>
+    <br>
     <div class="checkboxes">
       <div class="radio-buttons" id="forA">
         <div class="radio"  id="raa1">
@@ -45,32 +45,19 @@
           <input class ="forcolor" id="radio-3" type="radio" name="number" value="3"/>
           <label for="radio-3">03</label>
         </div>
-        <!-- <div class="radio" id="raa4">
-          <input class ="forcolor" id="radio-4" type="radio" name="number" value="4"/>
-          <label for="radio-4">04</label>
-        </div>
-        <div class="radio" id="raa5">
-          <input class ="forcolor" id="radio-5" type="radio" name="number" value="5"/>
-          <label for="radio-5">05</label>
-        </div>
-        <div class="radio" id="raa6">
-          <input class ="forcolor" id="radio-6" type="radio" name="number" value="6"/>
-          <label for="radio-6">06</label>
-        </div> -->
       </div>
         <br>
-        <button id="readybtn"><p id="ready"></p></button>
         <h5 id="showtext" style="text-align: center; color: white;"></h5>
         <img id="pic" class="showani">
-      
+        <button id="readybtn"><p id="ready"></p></button>
     
   </section>
   <!-- //線材質感與顏色 -->
   <section class="typography">
     <h6>線材質感與顏色</h6>
       <div class="checkboxes">
-        <h6 class="subheader" id="howmany" ></h6>
-        <h6 class="subheader">主要顏色:</h6>
+        <h6 class="subheader" id="howmany" style="padding-top: 20px;"></h6>
+        <h6 style="padding-left: 20px;">主要顏色:</h6>
         <input style="margin-left: 10%;" type="color" name="colorrr">
         <textarea style="margin: 8%; width: 80%;" type="text" placeholder="範例：我膚色比較深，希望白色襯底，上面黃色點綴" name="colorinterpretation"></textarea>
      </div>
@@ -81,7 +68,7 @@
       <h6 class="subheader">選擇妳的辣度</h6>
       <div class="radio">
         <input id="radio-7" type="radio" name="spicy level" value="1" checked="checked"/>
-        <label for="radio-7">大辣</label>
+        <label for="radio-7">小辣</label>
       </div>
       <div class="radio">
         <input id="radio-8" type="radio" name="spicy level" value="2"/>
@@ -89,7 +76,7 @@
       </div>
       <div class="radio">
         <input id="radio-9" type="radio" name="spicy level" value="3"/>
-        <label for="radio-9">小辣</label>
+        <label for="radio-9">大辣</label>
       </div>
     </div>
     
@@ -97,9 +84,9 @@
   <section class="links">
     <h6>【辣子的詮釋】</h6>
     <div class="input__wrapper">
-      <label class="label-form"></label>
       <br>
-      <h6 class="subheader">請給至少一句給辣子的詮釋，配色和質感會很仰賴妳的描述喔，請辣妹盡情發想，以讓辣子的更服貼妳喲，文字的無形是能塑造出很多可能的！</h6>
+      <h6 style="padding-left: 15px;" class="subheader">配色和質感會很仰賴妳的描述喔，請辣妹盡情發想！</h6>
+      <h6 style="padding-left: 20px;">請給至少一句給辣子的詮釋。</h6>
       <textarea style="margin: 8%; width: 80%;"type="text" placeholder="範例：藍色的集合體，如連綿的浪花，請辣妹盡情發想，以讓辣子的更服貼妳喲" name="interpretation"></textarea>
     </div>
   </section>
@@ -122,7 +109,7 @@
     <h6>身形確認</h6>
     <div class="inputs">
       <div class="input__wrapper">
-        <label class="label-form">胸圍-特殊備註</label>
+        <h6>胸圍-特殊備註<h6>
         <input name="shape"class="input-form" type="text" placeholder="36B 有大小奶的小煩惱"/>
       </div>
     </div>
@@ -134,11 +121,11 @@
       
       <div class="inputs">
         <div class="input__wrapper">
-          <label class="label-form">收件人姓名</label>
+          <h6>收件人姓名</h6>
           <input name="name" class="input-form" type="text" placeholder="寄件用，請務必填真名"/>
         </div>
         <div class="input__wrapper">
-          <label class="label-form">手機</label>
+          <h6>手機</h6>
           <input name="phone"class="input-form" type="text" placeholder="寄件用，不會半夜打給妳"/>
         </div>
         <h6 class="subheader">郵局或店到店的地址和門市，擇一填寫就好囉</h6>
@@ -148,7 +135,7 @@
         </div>   
         <div class="inputs">
           <div class="input__wrapper">
-            <label class="label-form">請輸入地址</label>
+            <h6>請輸入地址</h6>
             <input class="input-form" type="text" placeholder="寄件用，請務必正確喔" name="address"/>
           </div>
         </div>
@@ -159,7 +146,7 @@
       </div>
       <div class="inputs">
         <div class="input__wrapper">
-          <label class="label-form">請輸入門市名稱</label>
+          <h6>請輸入門市名稱</h6>
           <input class="input-form" type="text" placeholder="全家蘆洲九蘆店" name="toshop"/>
         </div>
       </div>
@@ -169,7 +156,10 @@
   </section>
   <section class="alerts">
     <h6>Email or IG</h6>
+    
     <div class="radio">
+      <h6 class="subheader">會以妳留下的方式和辣妹再次確認，請務必回信，才會確認訂單喔！</h6>
+      <h6 class="subheader">郵件與IG，擇一填寫即可</h6>
         <input id="radio-14" type="radio" name="message" value="1" checked="checked"/>
         <label for="radio-14">郵件聯繫</label>
     </div>   
@@ -181,9 +171,10 @@
     </div>   
     <label class="label-form">請輸入IG帳號名稱</label>
             <input class="input-form" type="text" placeholder="@lazi_crochet" name="ig"/>
-    <h5>我將以妳留下的方式和辣妹再次確認，請務必回信，才會確認訂單喔！</h5>
+    
   </section>
   <section class="loading">
+    
   <h6>總價格</h6>
   <div class="spinner-1">
     <h6>這是辣子的總價格</h6>
@@ -198,11 +189,8 @@
   
 </form>
 <div class="resultt" id="seeresult">
-  <div class="spinner-1">
-    <div class="spinner" data-loading="Loading..."></div>
-    <label>不論是野外山林或是都市燈火，我們都要竭盡舞蹈！</label>
-  </div>
   
+  <h6>不論是野外山林或是都市燈火，我們都要竭盡舞蹈！</h6>
   <div style="padding-top: 10%;background-color: #969696;display: block;padding: 50px;">
       <h1>Ｃontact</h1>
     <a href="mailto:ccg31112@gmail.com"><i style="color:rgb(255, 255, 255)" class="fa fa-envelope"></i></a>
