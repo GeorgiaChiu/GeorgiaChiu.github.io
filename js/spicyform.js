@@ -783,7 +783,7 @@ function render() {
     }
     else{
         document.getElementById('pic').classList.add('showani');
-        document.getElementById('ready').innerHTML = "這是你要的辣子嗎？";
+        document.getElementById('ready').innerHTML = "這是你要的辣子嗎？確認就按我！";
         document.getElementById("showtext").innerHTML = typenamedetailMap[formData.get('bigtype')][formData.get('number')];
         
         // "請選擇上面編號";
