@@ -393,6 +393,7 @@
    padding: 12px 49px;
    display: inline-block;
    margin-top: 22px;
+   margin-left: 30%;
    text-transform: uppercase;
    letter-spacing: 3px;
 }
@@ -489,7 +490,7 @@ h3.resume-subtitle {
 /* ---- Resume/End ---- */
 /* ---- Quotes/Start ---- */
  .quotes {
-   background-image: url(/resourse/lazi/lazi02.jpg);
+   background-image: url(/resourse/lazi/);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
