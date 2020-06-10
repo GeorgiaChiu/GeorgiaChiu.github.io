@@ -1,9 +1,9 @@
 const apiUrl = 'https://script.google.com/macros/s/AKfycbyEXg-ukmpFZcAUJQyV84DVM_SHhNf9N9rNnm_l3apyjPCfc45J/exec';
 
 //the alert is collapsible yay
-$(".alert").on("click", function() {
-	$(this).hide("slow");
-});
+// $(".alert").on("click", function() {
+// 	$(this).hide("slow");
+// });
 
 //apprearance
 
@@ -25,7 +25,6 @@ var state = {
     number_confirmed: false,
 }
 
-document.getElementById('ready').innerHTML = "✘ 點上面圓圈，選擇版型";
 
 
 

@@ -66,7 +66,7 @@ main > section > h6 {
 main > section h6.subheader {
   color: var(--grayColor);
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 20px;
   width: 80%;
 }
@@ -76,11 +76,13 @@ main > section h6.subheader {
   padding: 30px;
   border: 1px solid var(--accentColor);
   border-width: 0 1px 1px 0;
+
 }
 
 .typography {
   grid-area: typography;
   border-bottom: 1px solid var(--accentColor);
+  padding: 30px;
 }
 
 .buttons-wrapper {
