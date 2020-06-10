@@ -6,7 +6,7 @@
  body {
   padding: 0px;
   margin: 0px;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.42857143;
   color: rgb(182, 3, 3);
   background-color: #fff;
@@ -309,7 +309,7 @@
  }
 
  .personal-info h3 {
-    font-size: 25px;
+    font-size: 15px;
     letter-spacing: 2px; /* 文字間距 */
     margin-bottom: 6px;
     text-transform: capitalize;
@@ -406,7 +406,7 @@
 }
 
 .service-content h3 {
-  font-size: 24px;
+  font-size: 16px;
   letter-spacing: 1px;
   margin-top: 13px;
   margin-bottom: 8px;
@@ -414,7 +414,7 @@
   text-align: center;
 }
 .service-content2 h3 {
-  font-size: 24px;
+  font-size: 16px;
   letter-spacing: 1px;
   margin-top: 13px;
   margin-bottom: 8px;
@@ -423,14 +423,14 @@
 
 .service-content p {
   color: #302f2f;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 300; /* 決定字體的粗細(預設為400) */
   line-height: 24px;
   text-align: center;
 }
 .service-content2 p {
   color: #585757;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 300; /* 決定字體的粗細(預設為400) */
   line-height: 24px;
 }
@@ -470,13 +470,13 @@ h3.resume-subtitle {
 }
 
 .resume-detail h4 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   text-transform: capitalize;
 }
 
 .resume-detail h6 {
-  font-size: 16px;
+  font-size: 12px;
   margin-bottom: 9px;
   text-transform: capitalize;
 }
@@ -523,12 +523,12 @@ h3.resume-subtitle {
  }
 
  .quote-inner h3 {
-   font-size: 28px;
+   font-size: 38px;
    text-transform: capitalize;
  }
 
  .quote-inner p {
-   font-size: 28px;
+   font-size: 14px;
    margin-top: 12px;
  }
 
