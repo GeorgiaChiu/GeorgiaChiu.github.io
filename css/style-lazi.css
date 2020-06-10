@@ -8,7 +8,7 @@
   margin: 0px;
   font-size: 18px;
   line-height: 1.42857143;
-  color: rgb(182, 3, 3);
+  color: rgb(255, 255, 255);
   background-color: #fff;
   font-family: 'Bree Serif', serif;
 }
@@ -363,6 +363,7 @@
 
 .my_service {
   background-color: rgb(212, 190, 190);
+  
 }
 .my_lazi {
   /* background-color: #f9dbcb; */
@@ -387,8 +388,8 @@
 }
 
 .service-content2 a{
-  color: rgb(182, 3, 3);
-   border: 1px solid rgb(182, 3, 3);
+  color: rgb(255, 255, 255);
+   border: 1px solid rgb(255, 255, 255);
    border-radius: 11px;
    padding: 12px 49px;
    display: inline-block;
@@ -490,7 +491,7 @@ h3.resume-subtitle {
 /* ---- Resume/End ---- */
 /* ---- Quotes/Start ---- */
  .quotes {
-   background-image: url(/resourse/lazi/);
+   background-image: url(/resourse/lazi/lazi02.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
