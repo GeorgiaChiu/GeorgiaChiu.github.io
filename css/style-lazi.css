@@ -6,7 +6,7 @@
  body {
   padding: 0px;
   margin: 0px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.42857143;
   color: rgb(182, 3, 3);
   background-color: #fff;
@@ -74,16 +74,17 @@
    text-transform: uppercase;
    letter-spacing: 2px; /* 文字間距 */
    text-decoration: overline;
-   text-decoration-color: lawngreen;
+   text-decoration-color: rgb(255, 255, 255);
  }
 
  header {
   position: fixed;
-  width: 100%;
-  left: -10%;
-  right: 0;
-  background-color: rgb(255, 0, 0);
-  z-index: 100; /* 通過 z-index 來定義元素的層級，愈大的數字會放在愈上層 */
+    padding-right: 10%;
+    width: 120%;
+    left: -10%;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
 }
 
  #logo {
@@ -173,7 +174,7 @@
 }
 .container .menu ul li a {
   color: #000;
-  background: lawngreen;
+  background: #d8d7d7;
   display: block;
   padding: 1rem 2rem 1rem 3rem;
   text-align: right;
@@ -361,7 +362,7 @@
 /* ---- What I offer/Start ---- */
 
 .my_service {
-  background-color: lightgrey;
+  background-color: rgb(212, 190, 190);
 }
 .my_lazi {
   /* background-color: #f9dbcb; */
@@ -488,7 +489,7 @@ h3.resume-subtitle {
 /* ---- Resume/End ---- */
 /* ---- Quotes/Start ---- */
  .quotes {
-   background-image: url(/resourse/works/visuals/visual03.jpg);
+   background-image: url(/resourse/lazi/lazi02.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -654,6 +655,7 @@ h3.resume-subtitle {
  footer {
    padding: 80px 0;
    background-color: black;
+
    color: white;
    text-align: center;
  }
