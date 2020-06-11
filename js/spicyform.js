@@ -228,7 +228,7 @@ function render() {
 
             //可加效果
             if (!formData.get('bigtype') || !formData.get('name') ||!formData.get('phone') || !formData.get('number')||!formData.get('shape')) {
-                document.getElementById('result').textContent = "好像還沒填完唷"
+                document.getElementById('result').textContent = "☑都填完後再按提交唷"
 
                 return
             } else {
