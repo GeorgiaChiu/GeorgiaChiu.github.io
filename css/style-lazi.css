@@ -8,13 +8,13 @@
   margin: 0px;
   font-size: 18px;
   line-height: 1.42857143;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   background-color: #fff;
   font-family: 'Bree Serif', serif;
 }
 
  section {
-   padding: 100px 0;
+   padding: 40px 0;
  }
 
  * {
@@ -362,8 +362,8 @@
 /* ---- What I offer/Start ---- */
 
 .my_service {
-  background-color: rgb(212, 190, 190);
-  
+  background-color: rgb(255, 255, 255);
+  /* background-image: url(/resourse/lazi/008.png); */
 }
 .my_lazi {
   /* background-color: #f9dbcb; */
