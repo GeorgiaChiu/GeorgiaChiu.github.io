@@ -158,7 +158,7 @@ function render() {
         document.getElementById('types').innerHTML = typenameMap[formData.get('bigtype')];
     }
     else{
-        document.getElementById('types').innerHTML = "請點上面圓圈，選擇版型";
+        document.getElementById('types').innerHTML = "請點上面方匡，選擇版型";
     }
 
     if(state.number_confirmed){
