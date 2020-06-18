@@ -45,6 +45,13 @@ h1 {
 }
 
 /* <*-------------------page--------------> */
+.gra {
+  color: red;
+}
+
+.voc{
+  color: rgb(35, 130, 207);
+}
 
 
  h2, h3, h4, h5, h6, p {
@@ -108,7 +115,7 @@ h1 {
   width: 100%;
   left: -10%;
   right: 0;
-  background-color: rgb(37, 142, 255); 
+  /* background-color: rgba(37, 142, 255, 0.198);  */
   z-index: 100; /* 通過 z-index 來定義元素的層級，愈大的數字會放在愈上層 */
 }
 
@@ -128,7 +135,7 @@ h1 {
  }
 
  .nav a {
-    color: white;
+    color: rgb(211, 211, 211);
     text-transform: capitalize;
     display: block; /* 須設定為block才能設定padding */
     padding: 10px 12px;
@@ -400,7 +407,7 @@ h1 {
  .personal-info a{
   font-size: 16px;
   
-  color: rgb(35, 130, 207);
+  /* color: rgb(35, 130, 207); */
 
 }
 
