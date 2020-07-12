@@ -391,7 +391,27 @@
   padding: 1px 1px;
 }
 
+
+.service-content3 {
+  float: left;
+  width: 50%;
+  padding: 1px 10px;
+}
+
 .service-content2 a{
+  color: rgb(255, 255, 255);
+  background-color: rgba(83, 77, 77, 0.452);
+   border: 1px solid rgb(255, 255, 255);
+   border-radius: 11px;
+   padding: 12px 49px;
+   display: inline-block;
+   /* margin-top: 22px;
+   margin-left: 30%; */
+   text-transform: uppercase;
+   letter-spacing: 3px;
+}
+
+.service-content3 a{
   color: rgb(255, 255, 255);
   background-color: rgba(83, 77, 77, 0.452);
    border: 1px solid rgb(255, 255, 255);
@@ -413,6 +433,11 @@
   line-height: 46px;
 }
 
+.service-content3 i {
+  font-size: 30px;
+  line-height: 46px;
+}
+
 .service-content h3 {
   font-size: 16px;
   letter-spacing: 1px;
@@ -429,6 +454,14 @@
   text-transform: capitalize;
 }
 
+.service-content3 h3 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 13px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
 .service-content p {
   color: #302f2f;
   font-size: 14px;
@@ -437,6 +470,13 @@
   text-align: center;
 }
 .service-content2 p {
+  color: #585757;
+  font-size: 14px;
+  font-weight: 300; /* 決定字體的粗細(預設為400) */
+  line-height: 24px;
+}
+
+.service-content3 p {
   color: #585757;
   font-size: 14px;
   font-weight: 300; /* 決定字體的粗細(預設為400) */
