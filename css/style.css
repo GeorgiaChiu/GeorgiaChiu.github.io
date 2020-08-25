@@ -82,15 +82,15 @@
   width: 100%;
   left: -10%;
   right: 0;
-  background-color: rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 0);
   z-index: 100; /* 通過 z-index 來定義元素的層級，愈大的數字會放在愈上層 */
 }
 
  #logo {
   float: left;
   padding: 10px 10%;
-  font-size: 14px;
-  color: #000;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
 }
 
  .nav {
@@ -102,7 +102,7 @@
  }
 
  .nav a {
-    color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
     text-transform: capitalize;
     display: block; /* 須設定為block才能設定padding */
     padding: 10px 12px;
