@@ -40,11 +40,11 @@ html,body{
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
     transform: translateZ(0);
-  background:#1B2030 url(/resourse/profile.jpg) top center no-repeat;
+  background:#1B2030 url(/resourse/works/performance/201906-6-1.jpg) top center no-repeat;
   background-size:cover;
   background-attachment:fixed;
   animation: grow 60s  linear 10ms infinite;
-  transition:all 0.2s ease-in-out;
+  transition:all 0.5s ease-in-out;
   z-index:-2
 }
 .header a{
@@ -136,9 +136,9 @@ footer {
 }
 
 ul{
-  background-color: lawngreen;
+  /* background-color: rgb(0, 0, 0); */
   /* font-family: "Arial Black", Gadget, sans-serif; */
-  color: white;
+  color: rgb(0, 202, 17);
   font-size: 20px;
 }
 
