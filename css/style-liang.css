@@ -265,3 +265,15 @@ ul, li {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+#wrapper{
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  width: 500px;
+  height: 200px;
+}
+
+#frameContent{
+  width: 100%;
+  height: 100%;
+} 
