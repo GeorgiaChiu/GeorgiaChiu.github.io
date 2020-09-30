@@ -11,6 +11,8 @@
   color: rgb(182, 3, 3);
   background-color: #fff;
   font-family: 'Bree Serif', serif;
+  overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
  section {
