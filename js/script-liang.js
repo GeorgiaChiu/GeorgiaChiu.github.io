@@ -329,6 +329,7 @@ class Slider {
 
   listeners() {
     window.addEventListener('wheel', this.nextSlide, { passive: true });
+    document.addEventListener('swiped', this.nextSlide)
   }
 
   render() {

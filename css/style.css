@@ -252,6 +252,9 @@
    position: relative;
    opacity: 1; 
  }
+ .home_bg.pointer-event-none {
+   pointer-events: none;
+ }
 
  canvas {
   position: absolute;
