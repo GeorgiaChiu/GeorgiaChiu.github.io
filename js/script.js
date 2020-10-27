@@ -30,3 +30,8 @@ var images = [
 
     
   });
+
+  var homeBg = document.querySelector('.home_bg');
+  homeBg.addEventListener('touchstart', function(){
+    homeBg.classList.add('pointer-event-none');
+  });
