@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+  <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,500,500i,700" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css'>
+  <link rel="stylesheet" href="css/spicyform.css">
+
+</head>
+<body>
+  <form id='form'>
+<!-- partial:index.partial.html -->
+<input class="variation" id="bluepurple" type="radio" value="1" name="bigtype" checked="checked"/>
+<label for="bluepurple">Ⅰ</label>
+<input class="variation" id="sunset" type="radio" value="2" name="bigtype"/>
+<label for="sunset">Ⅱ</label>
+<input class="variation" id="godiva" type="radio" value="3" name="bigtype"/>
+<label for="godiva">Ⅲ</label>
+<input class="variation" id="dark" type="radio" value="4" name="bigtype"/>
+<label for="dark">Ⅳ</label>
+
+<br>
+
+<main>
+  <!-- //show pics -->
+  <section class="colors">
+    <h6 class="checkboxes"  id="types"></h6>
+    <br>
+    <div class="checkboxes">
+      <div class="radio-buttons">
+        <div class="radio"  id="raa1">
+          <input class ="forcolor" id="radio-1" type="radio" name="number" value="1" checked="checked"/>
+          <label for="radio-1">01</label>
+        </div>
+        <div class="radio" id="raa2">
+          <input class ="forcolor"id="radio-2" type="radio" name="number" value="2"/>
+          <label for="radio-2">02</label>
+        </div>
+        <div class="radio" id="raa3">
+          <input class ="forcolor" id="radio-3" type="radio" name="number" value="3"/>
+          <label for="radio-3">03</label>
+        </div>
+      </div>
+        <br>
+        <h5 id="showtext" style="text-align: center; color: white;"></h5>
+        <img id="pic" class="showani">
+        <button id="readybtn"><p id="ready"></p></button>
+    
+  </section>
+  <!-- //線材質感與顏色 -->
+  <section class="typography">
+    <h6>線材質感與顏色</h6>
+      <div class="checkboxes">
+        <h6 class="subheader" id="howmany" style="padding-top: 20px;"></h6>
+        <h6 style="padding-left: 20px;">主要顏色:</h6>
+        <input style="margin-left: 10%;" type="color" name="colorrr">
+        <textarea style="margin: 8%; width: 80%;" type="text" placeholder="範例：我膚色比較深，希望白色襯底，上面黃色點綴" name="colorinterpretation"></textarea>
+     </div>
+  </section>
+  <section class="button" style="padding:30px">
+    <h6>織紋的緊密度</h6>
+    <div class="radio-buttons">
+      <h6>選擇妳的辣度</h6>
+      <div class="radio">
+        <input id="radio-7" type="radio" name="spicy level" value="1" checked="checked"/>
+        <label for="radio-7">小辣</label>
+      </div>
+      <div class="radio">
+        <input id="radio-8" type="radio" name="spicy level" value="2"/>
+        <label for="radio-8">中辣</label>
+      </div>
+      <div class="radio">
+        <input id="radio-9" type="radio" name="spicy level" value="3"/>
+        <label for="radio-9">大辣</label>
+      </div>
+    </div>
+    
+  </section>
+  <section class="buttons-wrapper">
+    <h6>【辣子的詮釋】</h6>
+    <div class="input__wrapper">
+      <br>
+      <h6 style="padding-left: 15px;" class="subheader">配色和質感會很仰賴妳的描述喔，請辣妹盡情發想！</h6>
+      <h6 style="padding-left: 20px;">請給至少一句給辣子的詮釋。</h6>
+      <textarea style="margin: 8%; width: 80%;"type="text" placeholder="範例：藍色的集合體，如連綿的浪花，請辣妹盡情發想，以讓辣子的更服貼妳喲" name="interpretation"></textarea>
+    </div>
+  </section>
+  <section class="inputs-selects">
+    <h6>是否進行造山運動</h6>
+    <div class="toggle-buttons">
+      <h6>將縫上襯墊，將加價 NT180</h6>
+      <div class="radio">
+        <input id="radio-10" type="radio" name="upbra" value="1" checked="checked"/>
+        <label for="radio-10">是</label>
+        </div>  
+        <div class="radio">
+          <input id="radio-11" type="radio" name="upbra" value="1" checked="checked"/>
+          <label for="radio-11">否</label>
+          </div>  
+      </div>
+    </div>
+  </section>
+  <section class="badges">
+    <h6>身形確認</h6>
+    <div class="inputs">
+      <div class="input__wrapper">
+        <h6>☑ 胸圍-特殊備註<h6>
+        <input name="shape"class="input-form" type="text" placeholder="36B 有大小奶的小煩惱"/>
+      </div>
+    </div>
+  </section>
+  <section class="tooltips">
+    <h6>寄送方式</h6>
+    <div class="radio-buttons">
+      <h6 class="subheader">價格皆含運費</h6>
+      
+      <div class="inputs">
+        <div class="input__wrapper">
+          <h6>☑ 收件人姓名</h6>
+          <input name="name" class="input-form" type="text" placeholder="寄件用，請務必填真名"/>
+        </div>
+        <div class="input__wrapper">
+          <h6>☑ 手機</h6>
+          <input name="phone"class="input-form" type="text" placeholder="寄件用，不會半夜打給妳"/>
+        </div>
+        <h6 class="subheader">郵局或店到店的地址和門市，擇一填寫就好囉</h6>
+      <div class="radio">
+        <input id="radio-12" type="radio" name="delivery" value="1" checked="checked"/>
+        <label for="radio-12">郵寄</label>
+        </div>   
+        <div class="inputs">
+          <div class="input__wrapper">
+            <h6>請輸入地址</h6>
+            <input class="input-form" type="text" placeholder="寄件用，請務必正確喔" name="address"/>
+          </div>
+        </div>
+      </div>
+      <div class="radio">
+        <input id="radio-13" type="radio" name="delivery" value="2"/>
+        <label for="radio-13">店到店</label>
+      </div>
+      <div class="inputs">
+        <div class="input__wrapper">
+          <h6>請輸入門市名稱</h6>
+          <input class="input-form" type="text" placeholder="全家蘆洲九蘆店" name="toshop"/>
+        </div>
+      </div>
+        
+      </div>
+    </div>
+  </section>
+  <section class="alerts">
+    <h6>聯絡方式</h6>
+    
+    <div class="radio">
+      <h6 class="subheader">會以妳留下的方式和辣妹再次確認，請務必回信，才會確認訂單喔！</h6>
+      <h6 class="subheader">郵件與IG，擇一填寫即可</h6>
+        <input id="radio-14" type="radio" name="message" value="1" checked="checked"/>
+        <label for="radio-14">郵件聯繫</label>
+    </div>   
+    <label class="label-form">請輸入Email</label>
+            <input class="input-form" type="email" placeholder="lazi_crochet@gmail.com" name="email"/>
+    <div class="radio">
+        <input id="radio-15" type="radio" name="message" value="2" checked="checked"/>
+        <label for="radio-15">IG聯繫</label>
+    </div>   
+    <label class="label-form">請輸入IG帳號名稱</label>
+            <input class="input-form" type="text" placeholder="@lazi_crochet" name="ig"/>
+    
+  </section>
+  <section class="loading">
+    
+  <h6>總價格</h6>
+  <div class="spinner-1">
+    <h6>這是辣子的總價格</h6>
+    <h6 id="showprice"></h6>
+  </div>
+</section>
+</main>
+   <h3 style="padding-top: 40px; color: rgb(235, 235, 235);" id="result"></h3>
+   <button  onclick="gogo()"><input id="submit" type="submit"></button>
+   <h4><a style="color: rgb(80, 80, 80);text-decoration: none;" href="#form">▵回去上面▵</a></h4>
+   
+  
+</form>
+<div class="resultt" id="seeresult">
+  
+  <h6 style="font-size: 14px;">野外山林或是都市燈火，我們都要竭盡舞蹈！</h6>
+  <div style="padding-top: 10%;background-color: #969696;display: block;padding: 50px;">
+      <h1>Ｃontact</h1>
+    <a href="mailto:ccg31112@gmail.com"><i style="color:rgb(255, 255, 255)" class="fa fa-envelope"></i></a>
+    <a href="https://www.instagram.com/lazi_crochet/"><i style="color:rgb(255, 255, 255)" class="fa fa-instagram"></i></a>
+  </div>
+  
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script  src="js/spicyform.js"></script>
+
+</body>
+</html>

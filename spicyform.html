@@ -9,198 +9,447 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css'>
-  <link rel="stylesheet" href="css/spicyform.css">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+<link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="css/style-form.css"> <!--new-->
 </head>
-<body>
-  <form id='form'>
+
+
 <!-- partial:index.partial.html -->
-<input class="variation" id="bluepurple" type="radio" value="1" name="bigtype" checked="checked"/>
-<label for="bluepurple">Ⅰ</label>
-<input class="variation" id="sunset" type="radio" value="2" name="bigtype"/>
-<label for="sunset">Ⅱ</label>
-<input class="variation" id="godiva" type="radio" value="3" name="bigtype"/>
-<label for="godiva">Ⅲ</label>
-<input class="variation" id="dark" type="radio" value="4" name="bigtype"/>
-<label for="dark">Ⅳ</label>
+<body>
+  <div class="image-container set-full-height" style="background-image: url('resourse/group01.jpg')">
+    <!--   Creative Tim Branding   -->
+    <a href="index-lazi.html" target="_blank">
+         <div class="logo-container">
+            <div class="brand">
+                Làzi
+            </div>
+        </div>
+    </a>
+    <!--   Big container   -->
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+              <!-- Wizard container -->
+              <div class="wizard-container">
+                  <div class="card wizard-card" data-color="red" id="wizard">
+                      <form action="" method="" id="form">
+                  <!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
 
-<br>
+                        <div class="wizard-header">
+                            <h3 class="wizard-title">
+                              辣子訂製
+                            </h3>
+                        </div>
+                        <div class="wizard-navigation">
+                             <ul>
+                                <li><a href="#captain" data-toggle="tab">Pattern</a></li>
+                                <li><a href="#detail" data-toggle="tab">Detail</a></li>
+                                <li><a href="#details" data-toggle="tab">Personal Info</a></li>
+                                <li><a href="#description" data-toggle="tab">Extra Details</a></li>
+                             </ul>
+                         </div>
 
-<main>
-  <!-- //show pics -->
-  <section class="colors">
-    <h6 class="checkboxes"  id="types"></h6>
-    <br>
-    <div class="checkboxes">
-      <div class="radio-buttons">
-        <div class="radio"  id="raa1">
-          <input class ="forcolor" id="radio-1" type="radio" name="number" value="1" checked="checked"/>
-          <label for="radio-1">01</label>
-        </div>
-        <div class="radio" id="raa2">
-          <input class ="forcolor"id="radio-2" type="radio" name="number" value="2"/>
-          <label for="radio-2">02</label>
-        </div>
-        <div class="radio" id="raa3">
-          <input class ="forcolor" id="radio-3" type="radio" name="number" value="3"/>
-          <label for="radio-3">03</label>
-        </div>
-      </div>
-        <br>
-        <h5 id="showtext" style="text-align: center; color: white;"></h5>
-        <img id="pic" class="showani">
-        <button id="readybtn"><p id="ready"></p></button>
-    
-  </section>
-  <!-- //線材質感與顏色 -->
-  <section class="typography">
-    <h6>線材質感與顏色</h6>
-      <div class="checkboxes">
-        <h6 class="subheader" id="howmany" style="padding-top: 20px;"></h6>
-        <h6 style="padding-left: 20px;">主要顏色:</h6>
-        <input style="margin-left: 10%;" type="color" name="colorrr">
-        <textarea style="margin: 8%; width: 80%;" type="text" placeholder="範例：我膚色比較深，希望白色襯底，上面黃色點綴" name="colorinterpretation"></textarea>
-     </div>
-  </section>
-  <section class="button" style="padding:30px">
-    <h6>織紋的緊密度</h6>
-    <div class="radio-buttons">
-      <h6>選擇妳的辣度</h6>
-      <div class="radio">
-        <input id="radio-7" type="radio" name="spicy level" value="1" checked="checked"/>
-        <label for="radio-7">小辣</label>
-      </div>
-      <div class="radio">
-        <input id="radio-8" type="radio" name="spicy level" value="2"/>
-        <label for="radio-8">中辣</label>
-      </div>
-      <div class="radio">
-        <input id="radio-9" type="radio" name="spicy level" value="3"/>
-        <label for="radio-9">大辣</label>
-      </div>
-    </div>
-    
-  </section>
-  <section class="buttons-wrapper">
-    <h6>【辣子的詮釋】</h6>
-    <div class="input__wrapper">
-      <br>
-      <h6 style="padding-left: 15px;" class="subheader">配色和質感會很仰賴妳的描述喔，請辣妹盡情發想！</h6>
-      <h6 style="padding-left: 20px;">請給至少一句給辣子的詮釋。</h6>
-      <textarea style="margin: 8%; width: 80%;"type="text" placeholder="範例：藍色的集合體，如連綿的浪花，請辣妹盡情發想，以讓辣子的更服貼妳喲" name="interpretation"></textarea>
-    </div>
-  </section>
-  <section class="inputs-selects">
-    <h6>是否進行造山運動</h6>
-    <div class="toggle-buttons">
-      <h6>將縫上襯墊，將加價 NT180</h6>
-      <div class="radio">
-        <input id="radio-10" type="radio" name="upbra" value="1" checked="checked"/>
-        <label for="radio-10">是</label>
-        </div>  
-        <div class="radio">
-          <input id="radio-11" type="radio" name="upbra" value="1" checked="checked"/>
-          <label for="radio-11">否</label>
-          </div>  
-      </div>
-    </div>
-  </section>
-  <section class="badges">
-    <h6>身形確認</h6>
-    <div class="inputs">
-      <div class="input__wrapper">
-        <h6>☑ 胸圍-特殊備註<h6>
-        <input name="shape"class="input-form" type="text" placeholder="36B 有大小奶的小煩惱"/>
-      </div>
-    </div>
-  </section>
-  <section class="tooltips">
-    <h6>寄送方式</h6>
-    <div class="radio-buttons">
-      <h6 class="subheader">價格皆含運費</h6>
-      
-      <div class="inputs">
-        <div class="input__wrapper">
-          <h6>☑ 收件人姓名</h6>
-          <input name="name" class="input-form" type="text" placeholder="寄件用，請務必填真名"/>
-        </div>
-        <div class="input__wrapper">
-          <h6>☑ 手機</h6>
-          <input name="phone"class="input-form" type="text" placeholder="寄件用，不會半夜打給妳"/>
-        </div>
-        <h6 class="subheader">郵局或店到店的地址和門市，擇一填寫就好囉</h6>
-      <div class="radio">
-        <input id="radio-12" type="radio" name="delivery" value="1" checked="checked"/>
-        <label for="radio-12">郵寄</label>
-        </div>   
-        <div class="inputs">
-          <div class="input__wrapper">
-            <h6>請輸入地址</h6>
-            <input class="input-form" type="text" placeholder="寄件用，請務必正確喔" name="address"/>
-          </div>
-        </div>
-      </div>
-      <div class="radio">
-        <input id="radio-13" type="radio" name="delivery" value="2"/>
-        <label for="radio-13">店到店</label>
-      </div>
-      <div class="inputs">
-        <div class="input__wrapper">
-          <h6>請輸入門市名稱</h6>
-          <input class="input-form" type="text" placeholder="全家蘆洲九蘆店" name="toshop"/>
-        </div>
-      </div>
-        
-      </div>
-    </div>
-  </section>
-  <section class="alerts">
-    <h6>聯絡方式</h6>
-    
-    <div class="radio">
-      <h6 class="subheader">會以妳留下的方式和辣妹再次確認，請務必回信，才會確認訂單喔！</h6>
-      <h6 class="subheader">郵件與IG，擇一填寫即可</h6>
-        <input id="radio-14" type="radio" name="message" value="1" checked="checked"/>
-        <label for="radio-14">郵件聯繫</label>
-    </div>   
-    <label class="label-form">請輸入Email</label>
-            <input class="input-form" type="email" placeholder="lazi_crochet@gmail.com" name="email"/>
-    <div class="radio">
-        <input id="radio-15" type="radio" name="message" value="2" checked="checked"/>
-        <label for="radio-15">IG聯繫</label>
-    </div>   
-    <label class="label-form">請輸入IG帳號名稱</label>
-            <input class="input-form" type="text" placeholder="@lazi_crochet" name="ig"/>
-    
-  </section>
-  <section class="loading">
-    
-  <h6>總價格</h6>
-  <div class="spinner-1">
-    <h6>這是辣子的總價格</h6>
-    <h6 id="showprice"></h6>
-  </div>
-</section>
-</main>
-   <h3 style="padding-top: 40px; color: rgb(235, 235, 235);" id="result"></h3>
-   <button  onclick="gogo()"><input id="submit" type="submit"></button>
-   <h4><a style="color: rgb(80, 80, 80);text-decoration: none;" href="#form">▵回去上面▵</a></h4>
-   
-  
-</form>
-<div class="resultt" id="seeresult">
-  
-  <h6 style="font-size: 14px;">野外山林或是都市燈火，我們都要竭盡舞蹈！</h6>
-  <div style="padding-top: 10%;background-color: #969696;display: block;padding: 50px;">
-      <h1>Ｃontact</h1>
-    <a href="mailto:ccg31112@gmail.com"><i style="color:rgb(255, 255, 255)" class="fa fa-envelope"></i></a>
-    <a href="https://www.instagram.com/lazi_crochet/"><i style="color:rgb(255, 255, 255)" class="fa fa-instagram"></i></a>
-  </div>
-  
+                <div class="tab-content">
+                
+                   <!--type-->
+                   <div class="tab-pane" id="captain">
+                                  <div class="row">
+                                    <h4 class="info-text">款式 </h4>
+                                    <h6 class="info-text">What type do you want? </h4>
+                                    
+                                      <div class="col-sm-10 col-sm-offset-1">
+                                       
+                                          <div class="col-sm-4">
+                                                  <input id="type01" type="radio" name="bigtype" value="bikini">
+                                                  <label for="type01"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                                                  <h6>NT$ 1500</h6>
+                                          </div>
+                                          <div class="col-sm-4">
+                                                  <input id="type02" type="radio" name="bigtype" value="underball">
+                                                  <label for="type02"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                                                  <h6>NT$ 1800</h6>
+                                           </div>
+                                         <div class="col-sm-4">
+                                                  <input id="type3" type="radio" name="bigtype" value="neck">
+                                                  <label for="type3"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                                                  <h6>NT$ 2000</h6>
+                                           </div>
+                                           <div class="col-sm-4">
+                                            <input id="type04" type="radio" name="bigtype" value="Atype">
+                                            <label for="type04"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                                            <h6>NT$ 2200</h6>
+                                           </div>
+                                           <div class="col-sm-4">
+                                            <input id="type05" type="radio" name="bigtype" value="long">
+                                            <label for="type05"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                                            <h6>NT$ 2500</h6>
+                                           </div>
+                                           <div class="col-sm-4">
+                                            <input id="type06" type="radio" name="bigtype" value="special">
+                                            <label for="type06"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                                            <h6>NT$ 2000+</h6>
+                                           </div>
+                                     </div>
+                                  </div>
+                               </div>
+                <!--typeEnd-->
+                 <!--color-->
+                 <div class="tab-pane" id="detail">
+                  <div class="row">
+                    <h4 class="info-text">顏色 </h4>
+                    <h6 class="info-text">What color do you want? </h4>
+                      <div class="col-sm-10 col-sm-offset-1">
+                        <div class="col-sm-4">
+                          <input id="color01" type="checkbox" name="colorrr" value="white">
+                          <label for="color01"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                          <h6>Single</h6>
+                      </div>
+                      <div class="col-sm-4">
+                        <input id="color02" type="checkbox" name="colorrr" value="silver gold">
+                        <label for="color02"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                        <h6>Single</h6>
+                     </div>
+                      <div class="col-sm-4">
+                       <input id="color03" type="checkbox" name="colorrr" value="yellow">
+                       <label for="color03"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                       <h6>Single</h6>
+                     </div>
+                     <div class="col-sm-4">
+                      <input id="color04" type="checkbox" name="colorrr" value="light green">
+                      <label for="color04"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                      <h6>Single</h6>
+                  </div>
+                  <div class="col-sm-4">
+                    <input id="color05" type="checkbox" name="colorrr" value="green">
+                    <label for="color05"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                    <h6>Single</h6>
+                 </div>
+                  <div class="col-sm-4">
+                   <input id="color06" type="checkbox" name="colorrr" value="light blue">
+                   <label for="color06"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                   <h6>Single</h6>
+                 </div>
+                 <div class="col-sm-4">
+                  <input id="color07" type="checkbox" name="colorrr" value="deep blue">
+                  <label for="color07"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                  <h6>Single</h6>
+              </div>
+              <div class="col-sm-4">
+                <input id="color08" type="checkbox" name="colorrr" value="purple">
+                <label for="color08"><img src="resourse/classic /DSC06237-1.jpg"></label>
+                <h6>Single</h6>
+             </div>
+             <div class="col-sm-4">
+              <input id="color09" type="checkbox" name="colorrr" value="red">
+              <label for="color09"><img src="resourse/classic /DSC06237-1.jpg"></label>
+              <h6>Single</h6>
+            </div>
+              <div class="col-sm-4">
+               <input id="color09" type="checkbox" name="colorrr" value="black">
+               <label for="color09"><img src="resourse/classic /DSC06237-1.jpg"></label>
+               <h6>Single</h6>
+             </div>
+                   </div>
+                     <!--descriptiob-->
+                     <div>
+                      <div class="col-sm-6 col-sm-offset-1">
+                        <div class="form-group">
+        <h4 class="info-text">辣子的詮釋 </h4>
+        <h6 class="info-text">Describe your Lazi </h4>
+                              <label>至少一句 讓我織的更服貼妳 At least one sentence</label>
+                              <textarea class="form-control" placeholder="" rows="6" name="interpretation"></textarea>
+                          </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="form-group">
+                              <label class="control-label">範例 Ex.</label>
+                              <p class="description">"深藍為主，希望我的辣子是藍色的集合體，連綿的浪花，而水中有很多生物在跳舞" "Deep blue with some adorable animals"</p>
+                          </div>
+                      </div>
+                    </div>
+                    <!--describtionEnd-->
+                    </div>
 </div>
+<!--colorEnd-->
+                   
+                
+                        <!--Info-->		
+                              <div class="tab-pane" id="details">
+                                <div class="row">
+                                  <div class="col-sm-12">
+                                      <h4 class="info-text"></h4>
+                                  </div>
+                                    <div class="col-sm-6">
+                      <!--contact-->
+                      <div class="form-group label-floating">
+                                            <label class="control-label">Contact</label>
+                                            <select class="form-control">
+                          <option disabled="" selected=""></option>
+                                                  <option name="contact" value="email"> by e-mail </option>
+                                                  <option name="contact" value="ig"> by IG </option>
+                                            </select>
+                      </div>
+                      <!--email-->
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Email</label>
+                                                <input name="email" type="text" class="form-control">
+                                            </div>
+                      </div>
+                                              <!--IG-->
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons"></i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">IG Account</label>
+                                                <input name="ig" type="text" class="form-control">
+                                            </div>
+                      </div>
+                    </div>
+                    
+                                    <div class="col-sm-6">
+                                      <!--shape-->
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Shape(Ex.36C)</label>
+                                                <input name="shape" type="text" class="form-control">
+                                                
+                                            </div>
+                      </div>
+                      <!--deliver-->
+                      <div class="form-group label-floating">
+                                            <label class="control-label">Delivery</label>
+                                            <select class="form-control">
+                          <option disabled="" selected=""></option>
+                                                  <option name="delivery" value="post office"> Post Office +50 </option>
+                                                  <option name="delivery" value="convenient"> Convenient Store +60 </option>
+                                                  <option name="delivery" value="face"> Face to face(MRT唭哩岸) +0 </option>
+                                            </select>
+                      </div>
+                      <!--address-->
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons"></i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Address/711/Family Mart</label>
+                                                <input name="toWhere" type="text" class="form-control">
+                                            </div>
+                      </div>
+                       <!--name--> 
+                       <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons"></i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Name</label>
+                                                <input name="name" type="text" class="form-control">
+                                            </div>
+                      </div>
+                      <!--phone-->
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons"></i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Phone</label>
+                                                <input name="phone" type="text" class="form-control">
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                </div>
+<!--Finish-->
+              <div class="tab-pane" id="description">
+                  <div class="row">        
+                       <!--level-->
+                       <h4 class="info-text">辣度</h4>
+                       <h6 class="info-text">Spicy Level </h4>
+                      <div class="col-sm-10 col-sm-offset-1">
+                        <div class="col-sm-4">
+                          <input id="type01" type="radio" name="spicy level" value="S">
+                          <label for="type01"></label>
+                          <h6>小辣</h6>
+                          <h6>Conservative</h6>
+                      </div>
+                      <div class="col-sm-4">
+                          <input id="type01" type="radio" name="spicy level" value="M">
+                          <label for="type01"></label>
+                          <h6>中辣</h6>
+                          <h6>Easy</h6>
+                      </div>
+                      <div class="col-sm-4">
+                          <input id="type01" type="radio" name="spicy level" value="L">
+                          <label for="type01"></label>
+                          <h6>大辣</h6>
+                          <h6>Super</h6>
+                      </div>
+                    </div>
+                    <!--levelEnd-->
+                    
+                    <div class="col-sm-10 col-sm-offset-1">
+<div class="col-sm-6 col-sm-offset-1">
+  <div class="form-group">
+<h4 class="info-text">特殊備註 </h4>
+        <label>Special Needs</label>
+        <textarea name="colorinterpretation" class="form-control" placeholder="" rows="6"></textarea>
+    </div>
+</div>
+<div class="col-sm-4">
+  <div class="form-group">
+        <label class="control-label">Example</label>
+        <p class="description">"有大小奶的困擾，但又想要很辣，人生真難"</p>
+    </div>
+</div>
+</div>
+<div class="col-sm-10 col-sm-offset-1">
+                    <h4 class="info-text"> Well Done!</h4>
+                    <h6 style=" padding-left: 20px;">好想知道妳辣子的秘密呀！填寫完成後請按Finish送出 </h5>
+                      <h6 style=" padding-left: 20px;">我會與妳聯繫：）</h5>
+
+                    <h6 style=" padding-left: 20px;">I can't wait to receive your idea! </h5>
+                    <h6 style=" padding-left: 20px;">Press Finish button and I'll write you back as double check;) </h5>
+                    <h6 style=" padding-left: 20px;">It's glad to know you and share my love by crochet</h5>
+                    </div>         
+                    </div>
+                              </div>
+                          </div>
+
+<!--finshEnd-->
+                          <div class="wizard-footer">
+                              <div class="pull-right">
+                                    <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
+                                    <input  id="submit" type="submit" class='btn btn-finish btn-fill btn-danger btn-wd'>
+                                    <!-- <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish'> -->
+                                </div>
+                                <div class="pull-left">
+                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
+      <div class="footer-checkbox">
+                    <div class="col-sm-12">
+                    </div>
+                    </div>
+                  </div>
+                                </div>
+                                <div class="clearfix"></div>
+                          </div>
+                      </form>
+                  </div>
+              </div> <!-- wizard container -->
+          </div>
+      </div> <!-- row -->
+  </div> <!--  big container -->
+    <div class="footer">
+    <div class="container-fluid">
+      <div class="row" >
+        
+          <h3 id="result" style="text-align: center;"></h3>
+          <h4 id="result-EN" style="text-align: center;"></h4>
+        
+        <div class="col-xs-6 col-sm-3 column">
+          <h4>Information</h4>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Creator</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Facebook</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-xs-12 col-sm-3 text-right">
+          <h4>Follow</h4>
+          <ul class="list-inline">
+            <li><a rel="nofollow" href="https://www.facebook.com/profile.php?id=100000385976336" title="Facebook" style="font-size: 30px;"><i class="icon-lg ion-social-facebook-outline"></i></a>&nbsp;</li>
+            <li><a rel="nofollow" href="https://www.instagram.com/lazi_crochet/" title="Instagram" style="font-size: 30px;"><i class="icon-lg ion-social-instagram-outline"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <br/>
+       
+    </div>
+    </div>
+</div>
+</body>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-  <script  src="js/spicyform.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> -->
+<script  src="js/script-form.js"></script>
+
+
+
+<script>
+  const apiUrl = 'https://script.google.com/macros/s/AKfycbyEXg-ukmpFZcAUJQyV84DVM_SHhNf9N9rNnm_l3apyjPCfc45J/exec';
+
+  form.addEventListener('submit', async e => {
+          // prevent refresh page:
+          e.preventDefault();
+
+          
+          // collect form data
+          const formData = new FormData(form);
+          // fix checkbox value to boolean
+          form.querySelectorAll('input[type=checkbox]').forEach(
+              input => formData.set(input.name, input.checked)
+          );
+          
+          
+
+          //可加效果
+          if (!formData.get('bigtype') || !formData.get('name') ||!formData.get('phone') ) {
+              document.getElementById('result').textContent = "好像有東西還沒填好"
+              document.getElementById('result-EN').textContent = "Please Check one more time"
+
+              return
+          } else {
+              document.getElementById('result').textContent = ""
+          }
+          
+          if (!confirm("Ready to Get Spicy?")) {
+              return
+          }
+
+          // document.getElementById('submit').classList.add('rotating')
+
+          // upload form (await!)
+          const postReqest = await fetch(apiUrl, {
+              method: 'POST',
+              mode: 'cors',
+              body: formData,
+          })
+
+
+          // decode response and log
+          const response = await postReqest.json();
+          console.log(postReqest, response);
+
+          // after uploading complete effects:
+          // document.getElementById('submit').classList.remove('rotating')
+          // if (formData.get('angry') === 'true') {
+          //     document.getElementById('explosion').classList.add('doomed')
+          //     setTimeout(() => {
+          //         document.getElementById('explosion').classList.remove('doomed')
+          //     }, 1000)
+          // }
+
+          document.getElementById('result').textContent = "感謝辣妹,請等待Email通知";
+          
+          return false;
+      });
+
+</script>
 
 </body>
 </html>
+<!------------------------------------------------------------------------------------->
+
