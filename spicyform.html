@@ -79,7 +79,7 @@
                                           <div class="col-sm-4">
                                                   <input id="type01" type="radio" name="bigtype" value="bikini">
                                                   <label for="type01"><img src="resourse/A-style/Atype.png"></label>
-                                                  <h6>NT$ 2400</h6>
+                                                  <h6>NT$ 2300</h6>
                                           </div>
                                           
                                           
@@ -92,8 +92,21 @@
                 <!--typeEnd-->
                  <!--color-->
                  <div class="tab-pane" id="detail">
-                  <div class="row">
-                    <h4 class="info-text">顏色 </h4>
+                  
+                     <!--descriptiob-->
+                     <div class="row">
+                      <div class="col-sm-6 col-sm-offset-1">
+                        <div class="form-group">
+        <h4 class="info-text">辣子的詮釋 </h4>
+        <h6 class="info-text">Describe your Lazi </h4>
+                              <label>至少一句 讓我織的更服貼妳 At least one sentence</label>
+                              <textarea class="form-control" placeholder="深藍為主，希望我的辣子是藍色的集合體，連綿的浪花，而水中有很多生物在跳舞" rows="6" name="interpretation"></textarea>
+                          </div>
+                      </div>
+                    </div>
+                    <!--describtionEnd-->
+                    <div class="row">
+                    <h4 class="info-text">顏色(可複選) </h4>
                     <h6 class="info-text">What color do you want? </h4>
                       <div class="col-sm-10 col-sm-offset-1">
                         <div class="col-sm-4">
@@ -162,24 +175,7 @@
               <h6>黑 / black</h6>
             </div>
                    </div>
-                     <!--descriptiob-->
-                     <div>
-                      <div class="col-sm-6 col-sm-offset-1">
-                        <div class="form-group">
-        <h4 class="info-text">辣子的詮釋 </h4>
-        <h6 class="info-text">Describe your Lazi </h4>
-                              <label>至少一句 讓我織的更服貼妳 At least one sentence</label>
-                              <textarea class="form-control" placeholder="" rows="6" name="interpretation"></textarea>
-                          </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="form-group">
-                              <label class="control-label">範例 Ex.</label>
-                              <p class="description">"深藍為主，希望我的辣子是藍色的集合體，連綿的浪花，而水中有很多生物在跳舞"</p>
-                          </div>
-                      </div>
-                    </div>
-                    <!--describtionEnd-->
+                    
                     </div>
 </div>
 <!--colorEnd-->
@@ -229,7 +225,7 @@
                         <span class="input-group-addon">
                         </span>
                         <div class="form-group label-floating">
-                                                <label class="control-label">Shape(Ex.36C)</label>
+                                                <label class="control-label">Cup(Ex.36C)</label>
                                                 <input name="shape" type="text" class="form-control">
                                                 
                                             </div>
@@ -240,8 +236,8 @@
                                             <select id="delivery" name="delivery" class="form-control">
                                                    <option disabled="" selected="" ></option>
                                                   <option value="post office"> Post Office +50 </option>
-                                                  <option value="convenient"> Convenient Store +60 </option>
-                                                  <option value="face"> Face to face(MRT唭哩岸) +0 </option>
+                                                  <option value="convenient"> 711/Family Mart +60 </option>
+                                                  <option value="face"> Pick up at MRT.唭哩岸 +0 </option>
                                             </select>
                       </div>
                       <!--address-->
@@ -286,45 +282,40 @@
                       <div class="col-sm-10 col-sm-offset-1">
                         <div class="col-sm-4">
                           <input id="type01" type="radio" name="spicy level" value="S">
-                          <label for="type01"></label>
-                          <h6 style="text-align: le;">小辣/ Conservative</h6>
+                          <label for="type01"> <h6 style="text-align: le;">小辣 🌶</h6></label>
+                         
                          
                       </div>
                       <div class="col-sm-4">
                           <input id="type01" type="radio" name="spicy level" value="M">
-                          <label for="type01"></label>
-                          <h6>中辣/ Easy</h6>
+                          <label for="type01"><h6>中辣🌶🌶</h6></label>
+                          
                         
                       </div>
                       <div class="col-sm-4">
                           <input id="type01" type="radio" name="spicy level" value="L">
-                          <label for="type01"></label>
-                          <h6>大辣/ Super</h6>
+                          <label for="type01"><h6>大辣🌶🌶🌶</h6></label>
+                          
                          
                       </div>
                     </div>
                     <!--levelEnd-->
+                    <!--specailNeedStart-->
                     <div style="height: 100px;">
                         <hr>
                     </div>
                     
                     <div class="col-sm-10 col-sm-offset-1">
-<div class="col-sm-6 col-sm-offset-1">
-  <div class="form-group">
-<h4 class="info-text">特殊備註 </h4>
-        <label>Special Needs</label>
-        <textarea name="specialNeed" class="form-control" placeholder="" rows="6"></textarea>
-    </div>
-</div>
-<div class="col-sm-4">
-  <div class="form-group">
-        <label class="control-label">Example</label>
-        <p class="description">"有大小奶的困擾，但又想要很辣，人生真難"</p>
-    </div>
-</div>
-</div>
-<div class="col-sm-10 col-sm-offset-1">
-
+                       <div class="col-sm-6 col-sm-offset-1">
+                          <div class="form-group">
+                            <h4 class="info-text">特殊備註 </h4>
+                             <label>Special Needs</label>
+                             <textarea name="specialNeed" class="form-control" placeholder="有大小奶的困擾，但又想要很辣，人生真難" rows="6"></textarea>
+                           </div>
+                        </div>
+                    </div>
+                    <!--specailNeedEnd-->
+                  <div class="col-sm-10 col-sm-offset-1">
   <div style="height: 100px;">
     <hr>
   </div>

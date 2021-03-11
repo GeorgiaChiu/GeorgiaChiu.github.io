@@ -905,6 +905,8 @@ output {
 
 .form-control {
   margin-bottom: 7px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .form-control::-moz-placeholder {
   font-size: 14px;
@@ -979,6 +981,8 @@ label.control-label {
   line-height: 1.42857;
   color: #AAAAAA;
   font-weight: 400;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 .form-group label.control-label {
   font-size: 11px;
@@ -1021,6 +1025,7 @@ label.control-label {
   line-height: 1.5;
   color: #AAAAAA;
   font-weight: 400;
+  
 }
 .form-group.form-group-sm .form-control:-ms-input-placeholder {
   font-size: 11px;
