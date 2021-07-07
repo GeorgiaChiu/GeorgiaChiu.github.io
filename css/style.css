@@ -16,7 +16,8 @@
 }
 
  section {
-   padding: 100px 0;
+   padding: 50px 0;
+   
  }
 
  * {
@@ -59,7 +60,7 @@
  }
 
  .container {
-  width: 90%;
+  width: 100%;
   max-width: 1170px;
   margin: 0 auto;
   perspective: 200rem;
@@ -76,13 +77,12 @@
    text-transform: uppercase;
    letter-spacing: 2px; /* 文字間距 */
    text-decoration: overline;
-   text-decoration-color: lawngreen;
+   text-decoration-color: rgb(204, 204, 204);
  }
 
  header {
-  position: fixed;
+  position: sticky;
   width: 100%;
-  left: -10%;
   right: 0;
   background-color: rgba(255, 0, 0, 0);
   z-index: 100; /* 通過 z-index 來定義元素的層級，愈大的數字會放在愈上層 */
@@ -366,7 +366,8 @@
 /* ---- What I offer/Start ---- */
 
 .my_service {
-  background-color: lightgrey;
+  background-color: rgb(0, 0, 0);
+  background-image: url('/resourse/porttest-02.png');
 }
 .my_lazi {
   /* background-color: #f9dbcb; */
@@ -379,7 +380,7 @@
 .service-content {
   float: left;
   width: 33.33%;
-  padding: 0 15px;
+  padding: 20px 15px;
   letter-spacing: 2px; /* 文字間距 */
 
 }
@@ -387,7 +388,7 @@
 .service-content2 {
   float: left;
   width: 50%;
-  padding: 0 15px;
+  padding: 100px 15px;
 }
 
 .service-content2 a{
@@ -426,13 +427,13 @@
 }
 
 .service-content p {
-  color: #302f2f;
+  color: #868686;
   font-size: 14px;
   font-weight: 300; /* 決定字體的粗細(預設為400) */
   line-height: 24px;
 }
 .service-content2 p {
-  color: #585757;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 300; /* 決定字體的粗細(預設為400) */
   line-height: 24px;
@@ -674,3 +675,55 @@ h3.resume-subtitle {
  
 
 /* ---- Footer/End ---- */
+
+#bodyWear{
+  background-image: url('/resourse/works/performance/lian2020531-4.jpg') ;
+  
+}
+
+#onespicy{
+  background-image: url('/resourse/works/performance/onespicyphoto.jpg') ;
+  
+}
+#workshop{
+  background-image: url('/resourse/works/performance/lian2020531-4.jpg') ;
+  
+}
+#group{
+  background-image: url('/resourse/works/performance/lian2020531-4.jpg') ;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* Animation */
+#texyAnimate {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+  border-right: solid 3px rgba(224, 60, 60, 0);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-size: 18px;
+  color: rgba(255,255,255,.70);
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(255, 0, 0, 0.979);}
+  to{border-right-color: transparent;}
+}
