@@ -44,7 +44,7 @@
 
                         <div class="wizard-header">
                             <h3 class="wizard-title">
-                              Customize your own one<br>
+                              Get your Spicy<br>
                             </h3>
                         </div>
                         <div class="wizard-navigation">
@@ -52,7 +52,7 @@
                                 <li><a href="#captain" data-toggle="tab">Pattern</a></li>
                                 <li><a href="#detail" data-toggle="tab">Detail</a></li>
                                 <li><a href="#details" data-toggle="tab">Personal Info</a></li>
-                                <li><a href="#description" data-toggle="tab">Extra Details</a></li>
+                                <!--<li><a href="#description" data-toggle="tab">Extra Details</a></li>-->
                              </ul>
                          </div>
 
@@ -88,23 +88,70 @@
                                   </div>
                                </div>
                 <!--typeEnd-->
-                 <!--color-->
+<!--color-->
                  <div class="tab-pane" id="detail">
                   
-                     <!--descriptiob-->
+                     
                      <div class="row">
+
+                       <!--level-->
+                       <h4 class="info-text">辣度/ Spicy Level</h4>
+                       <h6 class="info-text">根據辣度會影響織紋的設計</h4>
+                      <div class="col-sm-10 col-sm-offset-1">
+                        <div class="col-sm-4">
+                          <input id="type01" type="radio" name="spicy level" value="S">
+                          <label for="type01"> <h6 style="text-align: le;">小辣 🌶</h6></label> 
+                      </div>
+                      <div class="col-sm-4">
+                          <input id="type01" type="radio" name="spicy level" value="M">
+                          <label for="type01"><h6>中辣🌶🌶</h6></label>
+                      </div>
+                      <div class="col-sm-4">
+                          <input id="type01" type="radio" name="spicy level" value="L">
+                          <label for="type01"><h6>大辣🌶🌶🌶</h6></label>
+                      </div>
+                    </div>
+                  
+                    <!--levelEnd-->
+                    <!--descriptiob-->
                       <div class="col-sm-6 col-sm-offset-1">
                         <div class="form-group">
         <h4 class="info-text">辣子的詮釋 </h4>
         <h6 class="info-text">Describe your Lazi </h4>
-                              <label>至少一句 讓我織得更服貼妳 At least one sentence</label>
-                              <textarea class="form-control" placeholder="深藍為主，希望我的辣子是藍色的集合體，連綿的浪花，而水中有很多生物在跳舞" rows="6" name="interpretation"></textarea>
+                              <label>At least one sentence</label>
+                              <textarea class="form-control" placeholder="深藍為主，是藍色的集合體" rows="6" name="interpretation"></textarea>
                           </div>
                       </div>
                     </div>
                     <!--describtionEnd-->
+                     <!--shape-->
+                     <h4 class="info-text">身型 </h4>
+                     <h6 class="info-text">Shape</h4>
+                     <div class="input-group">
+                      <span class="input-group-addon">
+                      </span>
+                      <div class="form-group label-floating">
+                       
+                                              <label class="control-label">下胸圍(cm) (Ex.75C)</label>
+                                              <input name="shape" type="text" class="form-control">
+                                              
+                                          </div>
+                    </div>
+                    <!--shape end-->
+                    <!--specailNeedStart-->
+                    <h4 class="info-text">特殊備註</h4>
+                    <h6 class="info-text">Special Needs</h4>
+                     
+                      <textarea name="specialNeed" class="form-control" placeholder="有大小奶的困擾" rows="6"></textarea>
+                    <div class="col-sm-10 col-sm-offset-1">
+                     
+                      
+                      
+                   </div>
+                   <!--specailNeedEnd-->
                     <div class="row">
                     <h4 class="info-text">顏色(可複選) </h4>
+                    <h6 class="info-text">會依據妳的描述做其他線材的搭配</h4>
                     <h6 class="info-text">What color do you want? </h4>
                       <div class="col-sm-10 col-sm-offset-1">
                         <div class="col-sm-4">
@@ -179,8 +226,8 @@
 <!--colorEnd-->
                    
                 
-                        <!--Info-->		
-                              <div class="tab-pane" id="details">
+              <!--Info-->		
+              <div class="tab-pane" id="details">
                                 <div class="row">
                                   <div class="col-sm-12">
                                       <h4 class="info-text"></h4>
@@ -217,17 +264,8 @@
                       </div>
                     </div>
                     
-                                    <div class="col-sm-6">
-                                      <!--shape-->
-                      <div class="input-group">
-                        <span class="input-group-addon">
-                        </span>
-                        <div class="form-group label-floating">
-                                                <label class="control-label">Cup(Ex.36C)</label>
-                                                <input name="shape" type="text" class="form-control">
-                                                
-                                            </div>
-                      </div>
+                    <div class="col-sm-6">
+                                     
                       <!--deliver-->
                       <div class="form-group label-floating">
                                             <label  for="delivery" class="control-label">Delivery</label>
@@ -244,7 +282,7 @@
                           <i class="material-icons"></i>
                         </span>
                         <div class="form-group label-floating">
-                                                <label class="control-label">Address/711/Family Mart</label>
+                                                <label class="control-label">Address/店取門市</label>
                                                 <input name="toWhere" type="text" class="form-control">
                                             </div>
                       </div>
@@ -268,67 +306,32 @@
                                                 <input name="phone" type="text" class="form-control">
                                             </div>
                                          </div>
-                                    </div>
-                                </div>
+                                         </div>
+                     <!--phone end-->
+
+                     
+                                          
+                                         <div style="padding: 50px;"></div>
+                                        <h4 class="info-text" style="text-align: center;"> Well Done!</h4>
+                                        <h6 style=" padding-left: 20px;">填寫完成後請按右下角按鈕送出 </h5>
+                                          <h6 style=" padding-left: 20px;">我會與妳聯繫：）</h5>
+                    
+                                        <h6 style=" padding-left: 20px;">I can't wait to receive your idea! </h5>
+                                        <h6 style=" padding-left: 20px;">Press Finish button and I'll write you back as double check;) </h5>
+                                        
+                                               
+                      </div>
+                    </div>
                 </div>
 <!--Finish-->
-              <div class="tab-pane" id="description">
+             <!-- <div class="tab-pane" id="description">
                   <div class="row">        
-                       <!--level-->
-                       <h4 class="info-text">辣度/ Spicy Level</h4>
-                       <h6 class="info-text">根據辣度會影響織紋的設計</h4>
-                      <div class="col-sm-10 col-sm-offset-1">
-                        <div class="col-sm-4">
-                          <input id="type01" type="radio" name="spicy level" value="S">
-                          <label for="type01"> <h6 style="text-align: le;">小辣 🌶</h6></label>
-                         
-                         
-                      </div>
-                      <div class="col-sm-4">
-                          <input id="type01" type="radio" name="spicy level" value="M">
-                          <label for="type01"><h6>中辣🌶🌶</h6></label>
-                          
-                        
-                      </div>
-                      <div class="col-sm-4">
-                          <input id="type01" type="radio" name="spicy level" value="L">
-                          <label for="type01"><h6>大辣🌶🌶🌶</h6></label>
-                          
-                         
-                      </div>
-                    </div>
-                    <!--levelEnd-->
-                    <!--specailNeedStart-->
-                    <div style="height: 100px;">
-                        <hr>
-                    </div>
+                     
                     
-                    <div class="col-sm-10 col-sm-offset-1">
-                       <div class="col-sm-6 col-sm-offset-1">
-                          <div class="form-group">
-                            <h4 class="info-text">特殊備註 </h4>
-                             <label>Special Needs</label>
-                             <textarea name="specialNeed" class="form-control" placeholder="有大小奶的困擾，但又想要很辣，人生真難" rows="6"></textarea>
-                           </div>
-                        </div>
-                    </div>
-                    <!--specailNeedEnd-->
-                  <div class="col-sm-10 col-sm-offset-1">
-  <div style="height: 100px;">
-    <hr>
-  </div>
-  
-                    <h4 class="info-text" style="text-align: center;"> Well Done!</h4>
-                    <h6 style=" padding-left: 20px;">好想知道妳辣子的秘密呀！填寫完成後請按右下角按鈕送出 </h5>
-                      <h6 style=" padding-left: 20px;">我會與妳聯繫：）</h5>
-
-                    <h6 style=" padding-left: 20px;">I can't wait to receive your idea! </h5>
-                    <h6 style=" padding-left: 20px;">Press Finish button and I'll write you back as double check;) </h5>
-                    <h6 style=" padding-left: 20px;">It's glad to know you and share my love by crochet</h5>
-                    </div>         
-                    </div>
-                              </div>
-                          </div>
+                  
+                    </div> 
+  </div>-->
+                          
                           <h3 id="result" style="text-align: center;color: crimson;"></h3>
                            <h4 id="result-EN" style="text-align: center;color: crimson;"></h4>
                            <div style="height: 100px;">
@@ -449,7 +452,7 @@
           //     }, 1000)
           // }
 
-          document.getElementById('result').textContent = "感謝辣妹,請等待回覆";
+          document.getElementById('result').textContent = "訂製成功,請等待回覆";
           document.getElementById('result-EN').textContent = "Thanks! I'll write you back";
           
           return false;
