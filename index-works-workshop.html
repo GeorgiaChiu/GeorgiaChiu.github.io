@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Georgia's</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+</head> 
+<style>
+	html {
+	  scroll-behavior: smooth;
+	}</style>
+ <body>
+ 
+ <!-- Header/Start -->
+  <header id="header">
+    <div class="container">
+      
+      <nav>
+      
+       <ul class="nav">    
+          <li><a href="#contact">contact</a></li>
+          <li><a href="index-works.html">Back</a></li>
+          <!-- <li><a href="#tra">Travel</a></li> -->
+        </ul> 
+      </nav>
+
+  </header>
+
+   <!-- Quotes/Start -->
+   <section class="visual-animate" style="height:100%";id="performance">
+    <div class="overlay" id="lian"></div>
+    <div class="container">
+      <div class="quote-inner">
+        <h2>Workshop</h2>
+        <h4>身體/ 行為/ Maxmsp</h4>
+      </div>
+    </div>
+  </section>
+  <!-- Quotes/End -->
+  <div style="height: 100px;background-color: black;"></div>
+    <!-- Quotes/Start -->
+    <section class="visual-animate2" id="shangdi">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="quote-inner">
+          <h3>《獨亮亮不如眾亮亮x編織裝置工作坊》</h3>
+          <h3>@良日激動所</h3>
+          <a href="https://www.youtube.com/watch?v=y0Qz1KPtibU&t=0s">Video</a>
+        </div>
+      </div>
+    </section>
+    <!-- Quotes/End -->
+  <!-- What I offer/Start -->
+  <section class="my_service">
+    <div class="container">
+      <h2></h2>
+      
+  
+        <p>聲音行為演出與工作坊</p>
+        <p>ArtKB48異音戰神莉莉司 ArtSMR活動</p>
+        <br>
+        <p></p>
+      
+      <div class="service-items clearfix">
+        <div class="service-content">     
+          <h3>Time</h3>
+          <p>Oct, 2020</p>
+        </div>
+        <div class="service-content">
+          <i class="fab fa-js-square" aria-hidden="true"></i>
+          <h3>Material</h3>
+          <p>編織, 鐵件 行為, 現場收音, 電腦即時演算 </p>
+            <p>wearing installation, Single-channel projection, Stereo electric sound,live recording, Real-time compute audio-visual performance.</p>
+        </div>
+        <div class="service-content">
+          <i class="fab fa-bootstrap" aria-hidden="true"></i>
+          <h3>Creator</h3>
+          <p>邱靖雅</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Quotes/Start -->
+  <!-- Latest work/Start -->
+  <section class="works" id="animation">
+    <div class="container">
+      <div class="work-items clearfix">
+        <div class="col-work">
+            <img class="img-work" src="resourse/works/performance/workshop03.jpg" alt="portfolio-1">
+        </div>
+        <div class="col-work">
+            <img class="img-work" src="resourse/works/performance/workshop04.jpg" alt="portfolio-2">
+      </div>
+      <div class="col-work">
+        <img class="img-work" src="resourse/works/performance/workshop01.jpg" alt="portfolio-2">
+  </div>
+  <div class="col-work">
+    <img class="img-work" src="resourse/works/performance/workshop05.jpg" alt="portfolio-2">
+</div>
+<div class="col-work">
+  <img class="img-work" src="resourse/works/performance/workshop02.jpg" alt="portfolio-2">
+</div>
+    </div>
+  </section>
+    <!-- Latest work/End -->
+
+
+
+    <div style="height: 300px;background-color: #000000;"></div>
+    
+   
+   
+  <!-- What I offer/End ---------------------------------------->
+
+
+    <footer id="footer" >
+      <div class="container" id="contact">
+        <div class="footer-content">
+          <h2>get in touch</h2>
+          <p>任何合作、邀約</p>
+          <div class="quote-inner">
+            <a href="mailto:ccg31112@gmail.com?Subject=Hello%20again" target="_top">Send Mail</a>
+          </div>
+   <!-- <p>&copy; 2019 ALPHA CAMP | All Rights Reserved.</p> -->
+          <div class="footer-social-icon">
+            or...
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/profile.php?id=100000385976336"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/georgia_spicy/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UC0Vfks7yfl2YxaO4prHBGrQ?view_as=subscriber"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer/End -->
+</body>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.8.7/pixi.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/hmongouachon/rgbShiftSlider/js/rgbShiftSlider.min.js'></script>
+<script src="js/script.js"></script>
+<script>
+  /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+  var dropdown = document.getElementsByClassName("dropdown-btn");
+  var i;
+  
+  for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
+    } else {
+    dropdownContent.style.display = "block";
+    }
+    });
+  }
+  </script>
+
+</html>

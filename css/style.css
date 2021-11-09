@@ -9,7 +9,7 @@
   font-size: 14px;
   line-height: 1.42857143;
   color: rgb(182, 3, 3);
-  background-color: #fff;
+  background-color: #000000;
   font-family: 'Bree Serif', serif;
   overflow: auto;
     -webkit-overflow-scrolling: touch;
@@ -76,7 +76,6 @@
    line-height: 50px;
    text-transform: uppercase;
    letter-spacing: 2px; /* 文字間距 */
-   text-decoration: overline;
    text-decoration-color: rgb(204, 204, 204);
  }
 
@@ -84,7 +83,7 @@
   position: sticky;
   width: 100%;
   right: 0;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: #242424;
   z-index: 100; /* 通過 z-index 來定義元素的層級，愈大的數字會放在愈上層 */
 }
 
@@ -367,7 +366,8 @@
 
 .my_service {
   background-color: rgb(0, 0, 0);
-  background-image: url('/resourse/porttest-02.png');
+  background-image: url('/resourse/works/visuals/visual04.jpg');
+  padding: 10%;
 }
 .my_lazi {
   /* background-color: #f9dbcb; */
@@ -520,6 +520,15 @@ h3.resume-subtitle {
   position: relative;
   width: 100%;
 }
+.visual-animate2 {
+  background-image: url(/resourse/works/visuals/visual03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* 讓背景跟著網頁移動 */
+  position: relative;
+  width: 100%;
+}
 
  .quote-inner {
    color: white;
@@ -552,7 +561,7 @@ h3.resume-subtitle {
 /* ---- Latest work/Start ---- */
 
  .works {
-   background-color: #f7f7f7;
+   background-color: #000000;
  }
 
  .col-work {
@@ -657,6 +666,7 @@ h3.resume-subtitle {
  footer {
    padding: 80px 0;
    background-color: black;
+   background-image: url(/resourse/works/visuals/visual04.jpg);
    color: white;
    text-align: center;
  }
