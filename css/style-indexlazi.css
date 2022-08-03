@@ -76,7 +76,8 @@ p {
 }
 
 .cursive {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lucida Handwriting', Cursive;
+    font-size: large;
     text-transform: none;
 }
 
