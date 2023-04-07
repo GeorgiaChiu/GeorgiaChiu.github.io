@@ -149,22 +149,40 @@
 <!--color-->
                  <div class="tab-pane" id="detail">
                   
+                      <!--SET--> 
+                      <div class="row">
+                      <h4 class="info-text">是否來全套的辣子?</h4>
+                       <h6 class="info-text">▎上身 + 下身鉤織丁字褲</h6>
+                       <div class="col-sm-10 col-sm-offset-1">
+                         <div class="col-sm-4">
+                           <input id="type01" type="radio" name="set" value="set">
+                           <label for="type01"> <h6 style="text-align: left;">全套 (+980)</h6></label> 
+                          
+                       </div>
+                       <div class="col-sm-4">
+                           <input id="type02" type="radio" name="set" value="no">
+                           <label for="type02"> <h6 style="text-align: left;">不用</h6></label> 
+                  
+                       </div>
+                       <div style="height: 80px;"></div>
+                     </div>
+                   </div>  
                      
+                     <!--SETEnd-->
+                     <!--level--> 
                      <div class="row">
-
-                       <!--level--> 
                      <h4 class="info-text" style="color: red;">＊</h4>
                      <h4 class="info-text">線上/ 實體訂製</h4>
                       <h6 class="info-text">▎實體地點於新北永和  <a href="https://goo.gl/maps/NSY8Y6DAExUkmE1s8">《群子》</a>  工作室</h6>
                       <div class="col-sm-10 col-sm-offset-1">
                         <div class="col-sm-4">
-                          <input id="type01" type="radio" name="where" value="online">
-                          <label for="type01"> <h6 style="text-align: left;">線上訂製</h6></label> 
+                          <input id="type03" type="radio" name="where" value="online">
+                          <label for="type03"> <h6 style="text-align: left;">線上訂製</h6></label> 
                          
                       </div>
                       <div class="col-sm-4">
-                          <input id="type02" type="radio" name="where" value="studio">
-                          <label for="type02"> <h6 style="text-align: left;">實體訂製</h6></label> 
+                          <input id="type04" type="radio" name="where" value="studio">
+                          <label for="type04"> <h6 style="text-align: left;">實體訂製</h6></label> 
                  
                       </div>
                       <div style="height: 80px;"></div>
@@ -440,12 +458,10 @@
                      
                                           
                                          <div style="padding: 50px;"></div>
-                                        <h4 class="info-text" style="text-align: center;"> Well Done!</h4>
-                                        <h6 style="text-align: center;">填寫完成後請按右下角按鈕送出 </h5>
-                                          <h6 style="text-align: center;">我會與妳聯繫：）</h5>
-                    
-                                        <h6 style="text-align: center;">I can't wait to receive your idea! </h5>
-                                        <h6 style="text-align: center;">Press Finish button and I'll write you back as double check;) </h5>
+                                        <h4 id="finishTitle" class="info-text" style="text-align: center;"> 要完成了！</h4>
+                                        <h6 id="finish" style="text-align: center;">填寫完成後請按右下角按鈕送出 </h5>
+                                 
+                                        <h6 id="finish-En" style="text-align: center;">Press Finish button and I'll write you back as double check;) </h5>
                                         
                                                
                       </div>
@@ -536,8 +552,11 @@
 
           //可加效果
           if (!formData.get('bigtype') || !formData.get('where') ||!formData.get('phone') ||!formData.get('email') ) {
-              document.getElementById('result').textContent = "請確認是否填寫完全"
+              document.getElementById('result').textContent = "請確認是否填寫完全,星號為必填欄位 "
               document.getElementById('result-EN').textContent = "Please check one more time"
+              document.getElementById('finishTitle').textContent = ""
+              document.getElementById('finish').textContent = ""
+              document.getElementById('finish-En').textContent = ""
 
               return
           } else {
@@ -571,7 +590,7 @@
           //     }, 1000)
           // }
 
-          document.getElementById('result').textContent = "訂製成功,請等待回覆";
+          document.getElementById('result').textContent = "訂製成功,我將以您指定的方式回覆，也可以ig/mail提醒我唷";
           document.getElementById('result-EN').textContent = "Thanks! I'll write you back";
           
           return false;
