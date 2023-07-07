@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Lazi scenery</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="css/style-colortest.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Hero -->
+  <section class="et-hero-tabs">
+    <h1>
+      <span class='c'>Lazi</span>
+    </h1>
+    <h3>一段旅程</h3>
+    <h5>這是一段妳與自己的旅程，目標不是終點，風景才是寶藏。請幫我找個舒適且不會被打擾的空間，閉上眼睛，直到心裡沉澱下來，我們即將開始。</h5>
+    <a href="#sayhianimails" class="nextbtn">START</a>
+    <div class="et-hero-tabs-container">
+      <a class="et-hero-tab" href="#sayhianimails">森林</a>
+      <a class="et-hero-tab" href="#blockwalls">牆</a>
+      <a class="et-hero-tab" href="#dinnings">餐桌</a>
+      <a class="et-hero-tab" href="#hills">坡</a>
+      <a class="et-hero-tab" href="#scenery">風景</a>
+      <span class="et-hero-tab-slider"></span>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <form action="" method="" id="form">
+  <main class="et-main">
+    <section class="et-slide1" id="sayhianimails">
+      <h1>
+        <span class='c'>森</span>
+        <span class='o'>林</span>
+      </h1>
+      <h4>妳進入一個森林，越走越深之後，已經不見任何文明的遺跡，甚至連前人走過的腳印都愈發模糊，這是出現一個生物，妳覺得那是什麼？形容得愈詳盡愈好。
+      </h4>
+      <div class="container">
+        <input type="text" placeholder="請留下妳的直覺" name="sayhi" id="sayhianimail">
+    </div>
+    <a href="#blockwalls" class="nextbtn">NEXT</a>
+    </section>
+    <section class="et-slide2" id="blockwalls">
+      <h1> <span class='c'>牆</span>
+      <h3>再走不久，前方出現了一個牆，妳覺得他是什麼形式的牆面？</h3>
+      <div class="container">
+        <input type="text" placeholder="慢慢來慢慢刻劃" name="block" id="blockwall">
+        </div>
+        <a href="#dinnings" class="nextbtn">NEXT</a>
+    </section>
+    <section class="et-slide3" id="dinnings">
+      <h1> <span class='c'>餐</span>
+        <span class='o'>桌</span></h1>
+      <h3>繞過那個牆後，你發現了一間屋子，屋內有一個餐桌，妳覺得椅子有幾張，桌巾是什麼樣的風格？</h3>
+      <div class="container">
+        <input type="text" placeholder="兩個問題都需要回答唷" name="din" id="dinning">
+      </div>
+      <a href="#hills" class="nextbtn">NEXT</a>
+    </section>
+    <section class="et-slide4" id="hills">
+      <h1> <span class='c'>坡</span></h1>
+      <h3>由屋子的後門出來，妳看到了一個坡，這是個怎麼樣的坡？</h3>
+      <div class="container">
+        <input type="text" placeholder="妳可以閉上眼睛描繪畫面" name="hillll" id="hill">
+      </div>
+      <a href="#scenery" class="nextbtn">NEXT</a>
+    </section>
+    <section class="et-slide5" id="scenery">
+      <h1> <span class='c'>風</span>
+        <span class='o'>景</span></h1>
+      <h3>越過這個坡之後，請以底下5張圖，以第一直覺選擇最相近的風景。</h3>
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="resourse/lazi/colors01.png" style="width:100%">
+    <div class="text">繽紛花園</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="resourse/lazi/colors02.png" style="width:100%">
+    <div class="text">野性叢林</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="resourse/lazi/colors03.png" style="width:100%">
+    <div class="text">蔚藍海岸</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="resourse/lazi/colors04.png" style="width:100%">
+    <div class="text">高冷俐落</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="resourse/lazi/colors05.png" style="width:100%">
+    <div class="text">溫暖晨光</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<div class="container">
+  <input class="submitt" type="submit" value="submit" id="submit">
+      <h4 id="result" style="text-align: center;"></h4>
+      <h6 id="result2" style="text-align: center;"></h6>
+
+  
+</div>
+<br>
+    </section>
+   
+    <footer id="footer">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-xs-6 col-sm-3 column">
+                  <h4>Information</h4>
+                  <ul class="list-unstyled">
+                      <li><a href="index.html">Creator</a></li>
+                      <li><a href="https://www.instagram.com/lazi_crochet/">Instagram</a></li>
+                      <li><a href="https://www.facebook.com/lazicrochett">Facebook</a></li>
+                      <li><a href="https://www.pinkoi.com/store/lazi">Pinkoi</a></li>
+                      <li><a href="https://www.youtube.com/channel/UCKu8alkV7DGx7IimaxleggQ">Youtube</a></li>
+                  </ul>
+              </div>
+          </div>
+          <br/>
+          
+      </div>
+  </footer>
+  </main>
+</form>
+<!-- partial -->
+
+<script>
+
+  form.addEventListener('submit', async e => {
+          // prevent refresh page:
+          e.preventDefault();
+
+          
+          // collect form data
+          const formData = new FormData(form);
+          // fix checkbox value to boolean
+          form.querySelectorAll('input[type=text]').forEach(
+              input => formData.set(input.name, input.checked)
+          );
+
+            if (!confirm("都確定填寫完畢了嗎？")) {
+              return
+          }
+          var ani = $("#sayhianimail").val();  
+          var blo = $("#blockwall").val();   
+          var din = $("#dinning").val(); 
+          var hil = $("#hill").val();    
+          document.getElementById('submit').remove();
+          document.getElementById('result').textContent = "森林中我看到 「" + ani +"」出現在我面前，再走了一陣子之後看到「"+ blo+"」。我繞了過去，發現一個小屋，裡面有一張餐桌，餐桌上有「"+din+"」。我從後門離開了屋子，看到接下來的路程是「"+hil+"」的坡，我沿著這個坡繼續走後，迎來了眼前的景象......";
+          document.getElementById('result2').textContent = "-妳可以將此頁截圖，工作坊將透露其中內容-"
+          
+      });
+
+</script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="js/script-colortest.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+</body>
+</html>
