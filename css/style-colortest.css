@@ -17,7 +17,7 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #e5e4e3;
+  background: #F5F5FA;
   /* background-image: url("../resourse/A-style/Atype.png"); */
   text-align: center;
   padding: 0 2em;
@@ -30,7 +30,7 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #e5e4e3;
+  background: #F5F5FA;
   /* background-image: url("../resourse/cave/cave01.png"); */
   text-align: center;
   padding: 0 2em;
@@ -42,7 +42,7 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #e5e4e3;
+  background: #F5F5FA;
   /* background-image: url("../resourse/halter-top/2people.png"); */
   text-align: center;
   padding: 0 2em;
@@ -54,7 +54,7 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #e5e4e3;
+  background: #F5F5FA;
   /* background-image: url("../resourse/halter-title.jpg"); */
   text-align: center;
   padding: 0 2em;
@@ -66,7 +66,7 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #e5e4e3;
+  background: #F5F5FA;
   text-align: center;
   /* background-image: url("../resourse/halter-top/gray.png"); */
   padding: 0 2em;
@@ -78,7 +78,7 @@ a {
   align-items: center;
   height: 120vh;
   position: relative;
-  background: #e5e4e3;
+  background: #F5F5FA;
   /* background-image: url("../resourse/halter-top/Hgroup-5.jpg"); */
   text-align: center;
   padding: 2em;
@@ -90,7 +90,7 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #e5e4e3;
+  background: #F5F5FA;
   /* background-image: url("../resourse/halter-top/Hgroup-5.jpg"); */
   text-align: center;
   padding: 0 2em;
@@ -129,7 +129,7 @@ a {
   justify-content: center;
   align-items: center;
   flex: 1;
-  color: #000;
+  color: #4d4d4d;
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
   font-size: 0.8rem;
@@ -150,14 +150,15 @@ a {
 }
 
 .container{
-display: flex;
+display: contents;
 flex-direction:column;
 justify-content:center;
 width: 80%;
+padding: 30px;
 }
 
 .container2{
-  display: flex;
+  display: contents;
   flex-direction:column;
   justify-content:center;
   width: 80%;
@@ -202,7 +203,7 @@ width: 80%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: #ccc;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -218,12 +219,12 @@ width: 80%;
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(76, 76, 76, 0.8);
 }
 
 /* Caption text */
 .text {
-  color: #fffefe;
+  color: #717171;
   font-size: 15px;
   padding: 8px 12px;
   position: inherit;
@@ -281,19 +282,78 @@ input[type=text]:focus {
 
 input[type=submit] {
   padding:5px 15px; 
-  background:#ccc; 
-  border:0 none;
+  margin: 3em;
   cursor:pointer;
   -webkit-border-radius: 5px;
-  border-radius: 5px; 
   margin-bottom: 30%;
+
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  position: relative;
+  text-align: left;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
+
 }
 
 .nextbtn{
 text-align: center;
-margin: 20px;
-
+  margin: 0.5em;
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  display: flex;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
 }
+
+.nextbtn:hover {
+  background: #f8f8ff;
+  box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+}
+
+@media (min-width: 768px) {
+  .nextbtn {
+    padding: 24px;
+  }
+}
+
+
+
 
 input[type="text"]::placeholder {
                  

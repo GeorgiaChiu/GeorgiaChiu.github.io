@@ -17,7 +17,7 @@
     </h1>
     <h3>一段旅程</h3>
     <h5>這是一段妳與自己的旅程，目標不是終點，風景才是寶藏。請幫我找個舒適且不會被打擾的空間，閉上眼睛，直到心裡沉澱下來，我們即將開始。</h5>
-    <a href="#sayhianimails" class="nextbtn">START</a>
+    <a href="#sayhianimails" class="nextbtn" role="button">START</a>
     <div class="et-hero-tabs-container">
       <a class="et-hero-tab" href="#sayhianimails">森林</a>
       <a class="et-hero-tab" href="#blockwalls">牆</a>
@@ -41,7 +41,7 @@
       <div class="container">
         <input type="text" placeholder="請留下妳的直覺" name="sayhi" id="sayhianimail">
     </div>
-    <a href="#blockwalls" class="nextbtn">NEXT</a>
+    <a href="#blockwalls" class="nextbtn" role="button">NEXT</a>
     </section>
     <section class="et-slide2" id="blockwalls">
       <h1> <span class='c'>牆</span>
@@ -49,16 +49,16 @@
       <div class="container">
         <input type="text" placeholder="慢慢來慢慢刻劃" name="block" id="blockwall">
         </div>
-        <a href="#dinnings" class="nextbtn">NEXT</a>
+        <a href="#dinnings" class="nextbtn" role="button">NEXT</a>
     </section>
     <section class="et-slide3" id="dinnings">
       <h1> <span class='c'>餐</span>
         <span class='o'>桌</span></h1>
-      <h3>繞過那個牆後，你發現了一間屋子，屋內有一個餐桌，妳覺得椅子有幾張，桌巾是什麼樣的風格？</h3>
+      <h3>繞過那個牆後，你發現了一間屋子，屋內有一個餐桌，妳覺得椅子有幾張？桌巾是什麼樣的風格？</h3>
       <div class="container">
-        <input type="text" placeholder="兩個問題都需要回答唷" name="din" id="dinning">
+        <input type="text" placeholder="例如：椅子3張，桌上批著舊舊的亞麻桌布" name="din" id="dinning">
       </div>
-      <a href="#hills" class="nextbtn">NEXT</a>
+      <a href="#hills" class="nextbtn" role="button">NEXT</a>
     </section>
     <section class="et-slide4" id="hills">
       <h1> <span class='c'>坡</span></h1>
@@ -66,42 +66,43 @@
       <div class="container">
         <input type="text" placeholder="妳可以閉上眼睛描繪畫面" name="hillll" id="hill">
       </div>
-      <a href="#scenery" class="nextbtn">NEXT</a>
+      <a href="#scenery" class="nextbtn" role="button">NEXT</a>
     </section>
     <section class="et-slide5" id="scenery">
-      <h1> <span class='c'>風</span>
-        <span class='o'>景</span></h1>
-      <h3>越過這個坡之後，請以底下5張圖，以第一直覺選擇最相近的風景。</h3>
+      <h1> <span class='c'>任</span><br>
+      <span class='o'>意</span><br>
+      <span class='e'>門</span></h1>
+      <h3>終於越過這個坡之後，出現了一個任意門，請以底下5張圖，以第一直覺選擇最相近的風景。</h3>
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 5</div>
-    <img src="resourse/lazi/colors01.png" style="width:100%">
+    <img src="resourse/lazi/scenery-01.png" style="width: 20em;">
     <div class="text">繽紛花園</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 5</div>
-    <img src="resourse/lazi/colors02.png" style="width:100%">
+    <img src="resourse/lazi/scenery-02.png" style="width: 20em;">
     <div class="text">野性叢林</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 5</div>
-    <img src="resourse/lazi/colors03.png" style="width:100%">
+    <img src="resourse/lazi/scenery-03.png" style="width: 20em;">
     <div class="text">蔚藍海岸</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">4 / 5</div>
-    <img src="resourse/lazi/colors04.png" style="width:100%">
-    <div class="text">高冷俐落</div>
+    <img src="resourse/lazi/scenery-04.png" style="width: 20em;">
+    <div class="text">高冷宇宙</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">5 / 5</div>
-    <img src="resourse/lazi/colors05.png" style="width:100%">
+    <img src="resourse/lazi/scenery-05.png" style="width: 20em;">
     <div class="text">溫暖晨光</div>
   </div>
 
@@ -110,9 +111,11 @@
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 <div class="container">
-  <input class="submitt" type="submit" value="submit" id="submit">
+  <input class="submitt" type="submit" value="FINISH" id="submit">
       <h4 id="result" style="text-align: center;"></h4>
       <h6 id="result2" style="text-align: center;"></h6>
+      <a id="link1" class="nextbtn" style="font-size: small;" href="https://docs.google.com/forms/d/e/1FAIpQLSfcNuMpkjGTiZ4l8qx8jgvDmS9nGTfY2wzXJKzv54EUW8Nf1g/viewform"></a>
+      <a id="link2" class="nextbtn" style="font-size: small;" href="https://georgias.me/spicyform.html"></a>
 
   
 </div>
@@ -163,8 +166,10 @@
           var din = $("#dinning").val(); 
           var hil = $("#hill").val();    
           document.getElementById('submit').remove();
-          document.getElementById('result').textContent = "森林中我看到 「" + ani +"」出現在我面前，再走了一陣子之後看到「"+ blo+"」。我繞了過去，發現一個小屋，裡面有一張餐桌，餐桌上有「"+din+"」。我從後門離開了屋子，看到接下來的路程是「"+hil+"」的坡，我沿著這個坡繼續走後，迎來了眼前的景象......";
+          document.getElementById('result').textContent = "森林中我看到 「" + ani +"」出現在我面前，再走了一陣子之後看到「"+ blo+"」。我繞了過去，發現一個小屋，裡面有一張餐桌，有「"+din+"」。我從後門離開了屋子，看到接下來的路程是「"+hil+"」的坡，我沿著這個坡繼續走後，迎來了一個任意門，打開門後我看到的景象......";
           document.getElementById('result2').textContent = "-妳可以將此頁截圖，工作坊將透露其中內容-"
+          document.getElementById('link1').textContent = "報名工作坊"
+          document.getElementById('link2').textContent = "訂製妳的風景"
           
       });
 
