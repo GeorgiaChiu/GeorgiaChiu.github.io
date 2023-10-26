@@ -18,7 +18,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #cbcbcc;
     color: #f8f8f8;
-    webkit-tap-highlight-color: rgb(92, 63, 63);
+    
 }
 
 hr {
@@ -46,10 +46,6 @@ a:focus {
     outline: 0;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    font-family: ‘cwTeXFangSong’, serif;
-}
 
 p {
     font-size: 17px;
@@ -524,3 +520,31 @@ img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
+
+/* CSS */
+.button-47 {
+  align-items: center;
+  background: #a9aba3;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  height: 24px;
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 18px;
+  margin: 6px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
