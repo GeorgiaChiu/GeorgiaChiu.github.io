@@ -231,7 +231,7 @@ header {
     color: #fff;
     height:  100%;
     background-color: #c9c9c9;
-    background-image: url('/resourse/halter-top/Hgroup-6-2.jpg');
+    background-image: url('/resourse/main.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -538,7 +538,7 @@ img::-moz-selection {
   line-height: 24px;
   overflow-wrap: break-word;
   padding: 18px;
-  margin: 6px;
+  margin: 3px;
   text-decoration: none;
   width: auto;
   border-radius: 8px;
