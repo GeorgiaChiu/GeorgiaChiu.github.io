@@ -231,7 +231,7 @@ header {
     color: #fff;
     height:  100%;
     background-color: #c9c9c9;
-    background-image: url('/resourse/main.jpg');
+    background-image: url('/resourse/DSC_4115.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -524,7 +524,7 @@ img::-moz-selection {
 /* CSS */
 .button-47 {
   align-items: center;
-  background: #a9aba3;
+  background: #a9aba35b;
   border: 0 solid #E2E8F0;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
